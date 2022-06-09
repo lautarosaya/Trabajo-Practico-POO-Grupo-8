@@ -79,5 +79,13 @@ namespace vista
         {
 
         }
+
+        private void btnLoginLO_Click(object sender, EventArgs e)
+        {
+            Interfaz_Administrador a = new Interfaz_Administrador();
+            this.Hide();
+            a.ShowDialog();
+
+        }
     }
 }
