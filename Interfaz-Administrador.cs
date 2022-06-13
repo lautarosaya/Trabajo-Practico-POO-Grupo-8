@@ -49,5 +49,12 @@ namespace vista
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Interfaz_Admin_Remover_Vehiculo d = new Interfaz_Admin_Remover_Vehiculo();
+            this.Hide();
+            d.ShowDialog();
+        }
     }
 }

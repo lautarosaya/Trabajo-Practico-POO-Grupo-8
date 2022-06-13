@@ -10,19 +10,17 @@ using System.Windows.Forms;
 
 namespace vista
 {
-    public partial class Interfaz_Admin_Empleado_Des : Form
+    public partial class Interfaz_Admin_Remover_Vehiculo : Form
     {
-        public Interfaz_Admin_Empleado_Des()
+        public Interfaz_Admin_Remover_Vehiculo()
         {
             InitializeComponent();
-            listBox1.Items.Add("Newton");
-
+            listBox1.Items.Add("Nton");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("El empleado " + listBox1.Text.ToString() + " fue despedido.", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+            MessageBox.Show("El vehiculo " + listBox1.Text + " fue removido de la consecionaria", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information);
             listBox1.Items.Remove(listBox1.Text);
         }
 
@@ -32,16 +30,6 @@ namespace vista
 
             this.Hide();
             a.ShowDialog();
-        }
-
-        public string Poner_nombre(string nombre, string apellido)
-        {
-            string nom = nombre;
-            string ape = apellido;
-
-            string agregar = nom + " " + ape;
-
-            return listBox1.Items.Add(agregar).ToString();
         }
     }
 }

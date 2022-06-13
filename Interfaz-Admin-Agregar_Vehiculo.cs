@@ -41,7 +41,7 @@ namespace vista
             {
                 calidad = "SI USADO";
             }
-            MessageBox.Show("Se agregó un vehículo " + listBox1.Text.ToString() + " del año " + dateTimePicker1.Text.ToString() + " en la consesionaria con la condición de " + calidad + " y con un motor " + listBox2.Text + ".");
+            MessageBox.Show("Se agregó un vehículo " + listBox1.Text.ToString() + " del año " + dateTimePicker1.Text.ToString() + " en la consesionaria con la condición de " + calidad + " y con un motor " + listBox2.Text + ".", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button2_Click(object sender, EventArgs e)

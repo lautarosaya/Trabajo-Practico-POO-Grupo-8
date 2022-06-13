@@ -48,3 +48,6 @@ C:\Users\Facu\Desktop\POO\bin\Debug\Modelo.dll.config
 C:\Users\Facu\Desktop\POO\bin\Debug\EntityFramework.xml
 C:\Users\Facu\Desktop\POO\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Facu\Desktop\POO\obj\Debug\Login.csproj.CopyComplete
+C:\Users\Facu\Desktop\POO\obj\Debug\vista.Interfaz_Admin_Empleado_Des.resources
+C:\Users\Facu\Desktop\POO\obj\Debug\vista.Interfaz_Admin_Empleado_Con.resources
+C:\Users\Facu\Desktop\POO\obj\Debug\vista.Interfaz_Admin_Remover_Vehiculo.resources
