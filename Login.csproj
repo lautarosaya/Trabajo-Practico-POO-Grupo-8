@@ -87,6 +87,12 @@
     <Compile Include="Interfaz-Admin-Empleado_Des.Designer.cs">
       <DependentUpon>Interfaz-Admin-Empleado_Des.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaz-Admin-Remover_Vehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz-Admin-Remover_Vehiculo.Designer.cs">
+      <DependentUpon>Interfaz-Admin-Remover_Vehiculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaz-Administrador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaz-Admin-Agregar_Vehiculo.resx">
       <DependentUpon>Interfaz-Admin-Agregar_Vehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz-Admin-Empleado-Con.resx">
+      <DependentUpon>Interfaz-Admin-Empleado-Con.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz-Admin-Empleado_Des.resx">
+      <DependentUpon>Interfaz-Admin-Empleado_Des.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz-Admin-Remover_Vehiculo.resx">
+      <DependentUpon>Interfaz-Admin-Remover_Vehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaz-Administrador.resx">
       <DependentUpon>Interfaz-Administrador.cs</DependentUpon>

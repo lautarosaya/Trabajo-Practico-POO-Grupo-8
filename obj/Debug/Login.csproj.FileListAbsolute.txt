@@ -48,6 +48,7 @@ C:\Users\Facu\Desktop\POO\bin\Debug\Modelo.dll.config
 C:\Users\Facu\Desktop\POO\bin\Debug\EntityFramework.xml
 C:\Users\Facu\Desktop\POO\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Facu\Desktop\POO\obj\Debug\Login.csproj.CopyComplete
+<<<<<<< HEAD
 G:\Programación\Trabajo-Practico-POO-Grupo-8\bin\Debug\vista.exe.config
 G:\Programación\Trabajo-Practico-POO-Grupo-8\bin\Debug\vista.exe
 G:\Programación\Trabajo-Practico-POO-Grupo-8\bin\Debug\vista.pdb
@@ -78,3 +79,8 @@ G:\Programación\Trabajo-Practico-POO-Grupo-8\bin\Debug\Microsoft.VisualBasic.Po
 G:\Programación\Trabajo-Practico-POO-Grupo-8\bin\Debug\stdole.dll
 G:\Programación\Trabajo-Practico-POO-Grupo-8\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 G:\Programación\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Registro.resources
+=======
+C:\Users\Facu\Desktop\POO\obj\Debug\vista.Interfaz_Admin_Empleado_Des.resources
+C:\Users\Facu\Desktop\POO\obj\Debug\vista.Interfaz_Admin_Empleado_Con.resources
+C:\Users\Facu\Desktop\POO\obj\Debug\vista.Interfaz_Admin_Remover_Vehiculo.resources
+>>>>>>> d6a8979ca5d8ccb2ca2dc7e9342045544bc2bf98
