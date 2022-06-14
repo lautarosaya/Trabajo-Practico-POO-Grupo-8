@@ -79,5 +79,11 @@ namespace vista
         {
 
         }
+
+        private void btnLoginLO_Click(object sender, EventArgs e)
+        {
+            vista.Cliente.Catalogo catalago = new vista.Cliente.Catalogo();
+            catalago.ShowDialog();
+        }
     }
 }

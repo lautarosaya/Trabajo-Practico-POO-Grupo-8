@@ -119,6 +119,7 @@
             this.btnLoginLO.TabIndex = 8;
             this.btnLoginLO.Text = "Ingresar";
             this.btnLoginLO.UseVisualStyleBackColor = true;
+            this.btnLoginLO.Click += new System.EventHandler(this.btnLoginLO_Click);
             // 
             // pnlRegistro
             // 
