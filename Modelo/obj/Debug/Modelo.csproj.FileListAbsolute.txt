@@ -21,3 +21,15 @@ C:\Users\Facu\Desktop\POO\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Facu\Desktop\POO\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\Facu\Desktop\POO\Modelo\obj\Debug\Modelo.dll
 C:\Users\Facu\Desktop\POO\Modelo\obj\Debug\Modelo.pdb
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll.config
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.pdb
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.dll
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.xml
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
+G:\Programación\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
