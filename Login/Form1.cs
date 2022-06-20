@@ -16,15 +16,13 @@ namespace vista
         {
             InitializeComponent();
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        char passwordchar;
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Size = new Size(300, 318);
+            //GetPasswordChar
+            passwordchar = txtContraseña.PasswordChar;
         }
 
         private void txtUsuario_Enter(object sender, EventArgs e)
@@ -41,6 +39,7 @@ namespace vista
             if (txtContraseña.Text == "Contraseña")
             {
                 txtContraseña.Text = "";
+                txtContraseña.PasswordChar = '*';
                 txtContraseña.ForeColor = Color.Black;
             }
         }
@@ -57,33 +56,28 @@ namespace vista
         private void txtContraseña_Leave(object sender, EventArgs e)
         {
             if (txtContraseña.Text == "")
-            {
+            { 
                 txtContraseña.Text = "Contraseña";
+                txtContraseña.PasswordChar = passwordchar;
                 txtContraseña.ForeColor = Color.Silver;
             }
         }
 
-        private void btnRegistrarLO_Click(object sender, EventArgs e)
-        {
-            pnlRegistro.Location = new Point(12, 12);
-            pnlLogin.Location = new Point(282, 12);
-            this.Size = new Size(270, 390);
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRegistrarRE_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnLoginLO_Click(object sender, EventArgs e)
         {
             vista.Cliente.Catalogo catalago = new vista.Cliente.Catalogo();
             catalago.ShowDialog();
+        }
+
+        private void btnRegistrarLO_Click(object sender, EventArgs e)
+        {
+            vista.Login.Registro registroFORM = new vista.Login.Registro();
+            registroFORM.ShowDialog();
         }
     }
 }

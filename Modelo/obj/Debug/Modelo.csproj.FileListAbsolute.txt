@@ -1,0 +1,12 @@
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll.config
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.pdb
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.dll
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.xml
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
