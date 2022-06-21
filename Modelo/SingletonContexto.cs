@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ namespace MODELO
     public class SingletonContexto
     {
         private static SingletonContexto _instancia;
-        private static ContextoContainer _contexto;
+       // private static ContextoContainer _contexto; 
 
         private SingletonContexto() { }
 
@@ -18,12 +18,12 @@ namespace MODELO
             if (_instancia == null)
             {
                 _instancia = new SingletonContexto();
-                _contexto = new ContextoContainer();
+           //     _contexto = new ContextoContainer();
             }
             return _instancia;
         }
 
-        public ContextoContainer Contexto
+       public ContextoContainer Contexto
         {
             get { return _contexto; }
         }

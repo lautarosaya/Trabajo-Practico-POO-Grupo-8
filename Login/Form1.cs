@@ -70,8 +70,16 @@ namespace vista
 
         private void btnLoginLO_Click(object sender, EventArgs e)
         {
-            vista.Cliente.Catalogo catalago = new vista.Cliente.Catalogo();
-            catalago.ShowDialog();
+          Controladora.usuarios usuarios = new Controladora.usuarios();
+           if(usuarios.identificador(txtUsuario.Text, txtContraseña.Text) == 1)
+            {
+                vista.Interfaz_Administrador adminFORM = new vista.Interfaz_Administrador();
+                adminFORM.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Se ingreso el usuario o una contraseña incorrecta, por favor revisar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnRegistrarLO_Click(object sender, EventArgs e)
