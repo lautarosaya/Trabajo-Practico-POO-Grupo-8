@@ -10,3 +10,15 @@ G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreComp
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.pdb
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
+C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
