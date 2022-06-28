@@ -39,6 +39,7 @@
             // 
             // pnlLogin
             // 
+            this.pnlLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
             this.pnlLogin.Controls.Add(this.btnRegistrarLO);
             this.pnlLogin.Controls.Add(this.label1);
             this.pnlLogin.Controls.Add(this.txtUsuario);
@@ -51,13 +52,14 @@
             // 
             // btnRegistrarLO
             // 
+            this.btnRegistrarLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.btnRegistrarLO.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarLO.Location = new System.Drawing.Point(76, 203);
             this.btnRegistrarLO.Name = "btnRegistrarLO";
             this.btnRegistrarLO.Size = new System.Drawing.Size(113, 34);
             this.btnRegistrarLO.TabIndex = 3;
             this.btnRegistrarLO.Text = "Registrar";
-            this.btnRegistrarLO.UseVisualStyleBackColor = true;
+            this.btnRegistrarLO.UseVisualStyleBackColor = false;
             this.btnRegistrarLO.Click += new System.EventHandler(this.btnRegistrarLO_Click);
             // 
             // label1
@@ -98,20 +100,21 @@
             // 
             // btnLoginLO
             // 
+            this.btnLoginLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
             this.btnLoginLO.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoginLO.Location = new System.Drawing.Point(29, 158);
             this.btnLoginLO.Name = "btnLoginLO";
             this.btnLoginLO.Size = new System.Drawing.Size(206, 39);
             this.btnLoginLO.TabIndex = 2;
             this.btnLoginLO.Text = "Ingresar";
-            this.btnLoginLO.UseVisualStyleBackColor = true;
+            this.btnLoginLO.UseVisualStyleBackColor = false;
             this.btnLoginLO.Click += new System.EventHandler(this.btnLoginLO_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
             this.ClientSize = new System.Drawing.Size(276, 272);
             this.Controls.Add(this.pnlLogin);
             this.MaximizeBox = false;
