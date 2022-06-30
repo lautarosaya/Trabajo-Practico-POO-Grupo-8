@@ -180,5 +180,10 @@ namespace Proyecto.Formularios.Ventas
                 }
             }
         }
+
+        private void txtbusqueda_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

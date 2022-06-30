@@ -1,7 +1,4 @@
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\DBVENTAS.db
-C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\CE VENTA FACIL.exe.config
-C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\CE VENTA FACIL.exe
-C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\CE VENTA FACIL.pdb
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\BarcodeLib.dll
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\BouncyCastle.Crypto.dll
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\ClosedXML.dll
@@ -71,5 +68,8 @@ C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\Proyecto.Proper
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\Proyecto.csproj.GenerateResource.cache
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\Proyecto.csproj.CopyComplete
-C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\CE VENTA FACIL.exe
-C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\CE VENTA FACIL.pdb
+C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\SISTEMA DE VENTAS.exe.config
+C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\SISTEMA DE VENTAS.exe
+C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\SISTEMA DE VENTAS.pdb
+C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\SISTEMA DE VENTAS.exe
+C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\SISTEMA DE VENTAS.pdb
