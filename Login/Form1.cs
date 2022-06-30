@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,10 +18,19 @@ namespace vista
             InitializeComponent();
         }
         char passwordchar;
-        
+
+        //Importando System32 para crear drag//
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+
+        [DllImportAttribute("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [DllImportAttribute("user32.dll")]
+        public static extern bool ReleaseCapture();
+        //Fin de código//
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Size = new Size(300, 318);
+            
             //GetPasswordChar
             passwordchar = txtContraseña.PasswordChar;
         }
@@ -71,21 +81,30 @@ namespace vista
         private void btnLoginLO_Click(object sender, EventArgs e)
         {
           Controladora.usuarios usuarios = new Controladora.usuarios();
-           if(usuarios.identificador(txtUsuario.Text, txtContraseña.Text) == 1)
+
+            switch (usuarios.identificador(txtUsuario.Text, txtContraseña.Text))
             {
-                vista.Interfaz_Administrador adminFORM = new vista.Interfaz_Administrador();
-                adminFORM.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Se ingreso el usuario o una contraseña incorrecta, por favor revisar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                case 1:
+                    vista.Interfaz_Administrador adminFORM = new vista.Interfaz_Administrador();
+                    this.Hide();
+                    adminFORM.ShowDialog();
+                    break;
+                
+                default:
+                    MessageBox.Show("Se ingreso el usuario o una contraseña incorrecta, por favor revisar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    break;
+            }                                 
         }
 
         private void btnRegistrarLO_Click(object sender, EventArgs e)
         {
             vista.Login.Registro registroFORM = new vista.Login.Registro();
             registroFORM.ShowDialog();
+        }
+
+        private void pnlTop_MouseDown(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }

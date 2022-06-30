@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro));
             this.pnlRegistro = new System.Windows.Forms.Panel();
+            this.pctBackRE = new System.Windows.Forms.PictureBox();
             this.btnRegistrarRE = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.txtContraseñaRE = new System.Windows.Forms.TextBox();
@@ -40,15 +41,13 @@
             this.txtNombreRE = new System.Windows.Forms.TextBox();
             this.txtApellidoRE = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pctBackRE = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pnlRegistro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctBackRE)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlRegistro
             // 
-            this.pnlRegistro.BackColor = System.Drawing.Color.White;
+            this.pnlRegistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
             this.pnlRegistro.Controls.Add(this.pctBackRE);
             this.pnlRegistro.Controls.Add(this.btnRegistrarRE);
             this.pnlRegistro.Controls.Add(this.label6);
@@ -60,10 +59,24 @@
             this.pnlRegistro.Controls.Add(this.txtNombreRE);
             this.pnlRegistro.Controls.Add(this.txtApellidoRE);
             this.pnlRegistro.Controls.Add(this.label2);
-            this.pnlRegistro.Location = new System.Drawing.Point(4, 30);
+            this.pnlRegistro.Location = new System.Drawing.Point(4, 4);
             this.pnlRegistro.Name = "pnlRegistro";
             this.pnlRegistro.Size = new System.Drawing.Size(250, 368);
             this.pnlRegistro.TabIndex = 10;
+            // 
+            // pctBackRE
+            // 
+            this.pctBackRE.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pctBackRE.ErrorImage")));
+            this.pctBackRE.Image = global::vista.Properties.Resources.image_removebg_preview;
+            this.pctBackRE.Location = new System.Drawing.Point(8, 15);
+            this.pctBackRE.Name = "pctBackRE";
+            this.pctBackRE.Size = new System.Drawing.Size(36, 25);
+            this.pctBackRE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctBackRE.TabIndex = 23;
+            this.pctBackRE.TabStop = false;
+            this.pctBackRE.Click += new System.EventHandler(this.pctBackRE_Click);
+            this.pctBackRE.MouseLeave += new System.EventHandler(this.pctBackRE_MouseLeave);
+            this.pctBackRE.MouseHover += new System.EventHandler(this.pctBackRE_MouseHover);
             // 
             // btnRegistrarRE
             // 
@@ -157,46 +170,25 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Bright", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(33)))), ((int)(((byte)(105)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(50, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 33);
+            this.label2.Size = new System.Drawing.Size(135, 34);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Registro_";
+            this.label2.Text = "Registro";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pctBackRE
-            // 
-            this.pctBackRE.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pctBackRE.ErrorImage")));
-            this.pctBackRE.Image = global::vista.Properties.Resources.image_removebg_preview;
-            this.pctBackRE.Location = new System.Drawing.Point(8, 15);
-            this.pctBackRE.Name = "pctBackRE";
-            this.pctBackRE.Size = new System.Drawing.Size(36, 25);
-            this.pctBackRE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctBackRE.TabIndex = 23;
-            this.pctBackRE.TabStop = false;
-            this.pctBackRE.Click += new System.EventHandler(this.pctBackRE_Click);
-            this.pctBackRE.MouseLeave += new System.EventHandler(this.pctBackRE_MouseLeave);
-            this.pctBackRE.MouseHover += new System.EventHandler(this.pctBackRE_MouseHover);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(257, 32);
-            this.panel1.TabIndex = 11;
             // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(257, 403);
-            this.Controls.Add(this.panel1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
+            this.ClientSize = new System.Drawing.Size(257, 377);
             this.Controls.Add(this.pnlRegistro);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "Registro";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
             this.pnlRegistro.ResumeLayout(false);
@@ -220,6 +212,5 @@
         private System.Windows.Forms.TextBox txtApellidoRE;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pctBackRE;
-        private System.Windows.Forms.Panel panel1;
     }
 }

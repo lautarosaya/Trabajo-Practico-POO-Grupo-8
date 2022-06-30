@@ -22,3 +22,39 @@ C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\De
 C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
 C:\Users\agusp\OneDrive\Escritorio\tp\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
+C:\Users\Navegador\Desktop\vi\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
+C:\Users\Facu\Desktop\POO\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
