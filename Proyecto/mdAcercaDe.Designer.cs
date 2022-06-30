@@ -50,11 +50,11 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(14, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(269, 35);
+            this.label2.Size = new System.Drawing.Size(269, 102);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Este sistema ha sido desarrollado por los alumnos Javier Ramirez, Agustin Sanchez" +
-    " Luccini, Lautaro Sayaavedra, Facundo Farneda";
+            this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 

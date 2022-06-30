@@ -26,7 +26,7 @@ namespace Proyecto
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://ouo.io/RK1tRH");
+            System.Diagnostics.Process.Start("https://www.instagram.com/fsautomotores/?hl=es");
         }
 
         private void iconPictureBox1_Click(object sender, EventArgs e)

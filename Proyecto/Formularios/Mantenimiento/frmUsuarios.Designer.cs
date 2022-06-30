@@ -202,7 +202,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label7.ForeColor = System.Drawing.Color.DarkGreen;
             this.label7.Location = new System.Drawing.Point(16, 97);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(141, 15);
@@ -211,7 +211,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label2.BackColor = System.Drawing.Color.DarkGreen;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
@@ -239,7 +239,7 @@
             this.btnnuevousuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnnuevousuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnnuevousuario.IconChar = FontAwesome.Sharp.IconChar.Plus;
-            this.btnnuevousuario.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnnuevousuario.IconColor = System.Drawing.Color.DarkGreen;
             this.btnnuevousuario.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnnuevousuario.IconSize = 17;
             this.btnnuevousuario.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -256,7 +256,7 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnsalir.BackColor = System.Drawing.Color.DarkGreen;
             this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -279,7 +279,7 @@
             this.btnbuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.Search;
-            this.btnbuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnbuscar.IconColor = System.Drawing.Color.DarkGreen;
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 18;
             this.btnbuscar.Location = new System.Drawing.Point(542, 122);
@@ -297,7 +297,7 @@
             this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnborrar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
-            this.btnborrar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnborrar.IconColor = System.Drawing.Color.DarkGreen;
             this.btnborrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnborrar.IconSize = 20;
             this.btnborrar.Location = new System.Drawing.Point(583, 122);

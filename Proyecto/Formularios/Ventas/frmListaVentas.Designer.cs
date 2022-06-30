@@ -43,12 +43,6 @@
             this.txtbuscar = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.dgvdata = new System.Windows.Forms.DataGridView();
-            this.btnexportar = new FontAwesome.Sharp.IconButton();
-            this.btnborrar = new FontAwesome.Sharp.IconButton();
-            this.btnbusqueda = new FontAwesome.Sharp.IconButton();
-            this.btnbuscar = new FontAwesome.Sharp.IconButton();
-            this.btnsalir = new FontAwesome.Sharp.IconButton();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.FechaRegistro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NroDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UsuarioRegistro = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,13 +57,19 @@
             this.PrecioVenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnexportar = new FontAwesome.Sharp.IconButton();
+            this.btnborrar = new FontAwesome.Sharp.IconButton();
+            this.btnbusqueda = new FontAwesome.Sharp.IconButton();
+            this.btnbuscar = new FontAwesome.Sharp.IconButton();
+            this.btnsalir = new FontAwesome.Sharp.IconButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label2.BackColor = System.Drawing.Color.DarkGreen;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
@@ -212,111 +212,6 @@
             this.dgvdata.Size = new System.Drawing.Size(1054, 423);
             this.dgvdata.TabIndex = 186;
             // 
-            // btnexportar
-            // 
-            this.btnexportar.BackColor = System.Drawing.SystemColors.Control;
-            this.btnexportar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnexportar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnexportar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
-            this.btnexportar.IconColor = System.Drawing.Color.LimeGreen;
-            this.btnexportar.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.btnexportar.IconSize = 17;
-            this.btnexportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnexportar.Location = new System.Drawing.Point(26, 107);
-            this.btnexportar.Name = "btnexportar";
-            this.btnexportar.Size = new System.Drawing.Size(118, 21);
-            this.btnexportar.TabIndex = 192;
-            this.btnexportar.Text = "Descargar Excel";
-            this.btnexportar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnexportar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnexportar.UseVisualStyleBackColor = false;
-            this.btnexportar.Click += new System.EventHandler(this.btnexportar_Click);
-            // 
-            // btnborrar
-            // 
-            this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnborrar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
-            this.btnborrar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
-            this.btnborrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnborrar.IconSize = 17;
-            this.btnborrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnborrar.Location = new System.Drawing.Point(1043, 108);
-            this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Size = new System.Drawing.Size(37, 21);
-            this.btnborrar.TabIndex = 191;
-            this.btnborrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnborrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnborrar.UseVisualStyleBackColor = true;
-            this.btnborrar.Click += new System.EventHandler(this.btnborrar_Click);
-            // 
-            // btnbusqueda
-            // 
-            this.btnbusqueda.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnbusqueda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnbusqueda.IconChar = FontAwesome.Sharp.IconChar.Search;
-            this.btnbusqueda.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
-            this.btnbusqueda.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnbusqueda.IconSize = 17;
-            this.btnbusqueda.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnbusqueda.Location = new System.Drawing.Point(1002, 108);
-            this.btnbusqueda.Name = "btnbusqueda";
-            this.btnbusqueda.Size = new System.Drawing.Size(37, 21);
-            this.btnbusqueda.TabIndex = 190;
-            this.btnbusqueda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnbusqueda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnbusqueda.UseVisualStyleBackColor = true;
-            this.btnbusqueda.Click += new System.EventHandler(this.btnbusqueda_Click);
-            // 
-            // btnbuscar
-            // 
-            this.btnbuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.Search;
-            this.btnbuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
-            this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnbuscar.IconSize = 17;
-            this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnbuscar.Location = new System.Drawing.Point(403, 61);
-            this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(99, 21);
-            this.btnbuscar.TabIndex = 185;
-            this.btnbuscar.Text = "Buscar";
-            this.btnbuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnbuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnbuscar.UseVisualStyleBackColor = true;
-            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
-            // 
-            // btnsalir
-            // 
-            this.btnsalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
-            this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.ForeColor = System.Drawing.Color.White;
-            this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.btnsalir.IconColor = System.Drawing.Color.White;
-            this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.btnsalir.IconSize = 24;
-            this.btnsalir.Location = new System.Drawing.Point(1025, 10);
-            this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(70, 31);
-            this.btnsalir.TabIndex = 180;
-            this.btnsalir.Text = "Salir";
-            this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnsalir.UseVisualStyleBackColor = false;
-            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Proyecto.Properties.Resources.LogoCanal;
-            this.pictureBox2.Location = new System.Drawing.Point(932, 13);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(74, 69);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 194;
-            this.pictureBox2.TabStop = false;
-            // 
             // FechaRegistro
             // 
             this.FechaRegistro.HeaderText = "Fecha Registro";
@@ -426,6 +321,111 @@
             this.SubTotal.ReadOnly = true;
             this.SubTotal.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.SubTotal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // btnexportar
+            // 
+            this.btnexportar.BackColor = System.Drawing.SystemColors.Control;
+            this.btnexportar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnexportar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnexportar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
+            this.btnexportar.IconColor = System.Drawing.Color.LimeGreen;
+            this.btnexportar.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnexportar.IconSize = 17;
+            this.btnexportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnexportar.Location = new System.Drawing.Point(26, 107);
+            this.btnexportar.Name = "btnexportar";
+            this.btnexportar.Size = new System.Drawing.Size(118, 21);
+            this.btnexportar.TabIndex = 192;
+            this.btnexportar.Text = "Descargar Excel";
+            this.btnexportar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnexportar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnexportar.UseVisualStyleBackColor = false;
+            this.btnexportar.Click += new System.EventHandler(this.btnexportar_Click);
+            // 
+            // btnborrar
+            // 
+            this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnborrar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
+            this.btnborrar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnborrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnborrar.IconSize = 17;
+            this.btnborrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnborrar.Location = new System.Drawing.Point(1043, 108);
+            this.btnborrar.Name = "btnborrar";
+            this.btnborrar.Size = new System.Drawing.Size(37, 21);
+            this.btnborrar.TabIndex = 191;
+            this.btnborrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnborrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnborrar.UseVisualStyleBackColor = true;
+            this.btnborrar.Click += new System.EventHandler(this.btnborrar_Click);
+            // 
+            // btnbusqueda
+            // 
+            this.btnbusqueda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnbusqueda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnbusqueda.IconChar = FontAwesome.Sharp.IconChar.Search;
+            this.btnbusqueda.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnbusqueda.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnbusqueda.IconSize = 17;
+            this.btnbusqueda.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnbusqueda.Location = new System.Drawing.Point(1002, 108);
+            this.btnbusqueda.Name = "btnbusqueda";
+            this.btnbusqueda.Size = new System.Drawing.Size(37, 21);
+            this.btnbusqueda.TabIndex = 190;
+            this.btnbusqueda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnbusqueda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnbusqueda.UseVisualStyleBackColor = true;
+            this.btnbusqueda.Click += new System.EventHandler(this.btnbusqueda_Click);
+            // 
+            // btnbuscar
+            // 
+            this.btnbuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.Search;
+            this.btnbuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnbuscar.IconSize = 17;
+            this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnbuscar.Location = new System.Drawing.Point(403, 61);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(99, 21);
+            this.btnbuscar.TabIndex = 185;
+            this.btnbuscar.Text = "Buscar";
+            this.btnbuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnbuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
+            // 
+            // btnsalir
+            // 
+            this.btnsalir.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
+            this.btnsalir.IconColor = System.Drawing.Color.White;
+            this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnsalir.IconSize = 24;
+            this.btnsalir.Location = new System.Drawing.Point(1025, 10);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(70, 31);
+            this.btnsalir.TabIndex = 180;
+            this.btnsalir.Text = "Salir";
+            this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnsalir.UseVisualStyleBackColor = false;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Proyecto.Properties.Resources.LogoCanal;
+            this.pictureBox2.Location = new System.Drawing.Point(932, 13);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(74, 69);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 194;
+            this.pictureBox2.TabStop = false;
             // 
             // frmListaVentas
             // 

@@ -269,7 +269,7 @@
             // 
             // label7
             // 
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label7.BackColor = System.Drawing.Color.DarkGreen;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
@@ -283,7 +283,7 @@
             // 
             // iconButton1
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.iconButton1.BackColor = System.Drawing.Color.DarkGreen;
             this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -307,7 +307,7 @@
             this.btngenerarimagen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btngenerarimagen.ForeColor = System.Drawing.Color.Black;
             this.btngenerarimagen.IconChar = FontAwesome.Sharp.IconChar.Image;
-            this.btngenerarimagen.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btngenerarimagen.IconColor = System.Drawing.Color.DarkGreen;
             this.btngenerarimagen.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btngenerarimagen.IconSize = 40;
             this.btngenerarimagen.Location = new System.Drawing.Point(692, 117);
@@ -325,7 +325,7 @@
             this.btngenerardocumento.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btngenerardocumento.ForeColor = System.Drawing.Color.Black;
             this.btngenerardocumento.IconChar = FontAwesome.Sharp.IconChar.Barcode;
-            this.btngenerardocumento.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btngenerardocumento.IconColor = System.Drawing.Color.DarkGreen;
             this.btngenerardocumento.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btngenerardocumento.IconSize = 40;
             this.btngenerardocumento.Location = new System.Drawing.Point(693, 55);

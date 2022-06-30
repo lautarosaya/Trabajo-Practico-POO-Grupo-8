@@ -70,7 +70,7 @@
             // 
             // statusStrip1
             // 
-            this.statusStrip1.BackColor = System.Drawing.Color.PeachPuff;
+            this.statusStrip1.BackColor = System.Drawing.Color.AliceBlue;
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.Top;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel2,

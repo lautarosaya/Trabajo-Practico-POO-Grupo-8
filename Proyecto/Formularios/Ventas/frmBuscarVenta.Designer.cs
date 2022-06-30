@@ -57,15 +57,15 @@
             this.lbltotal = new System.Windows.Forms.Label();
             this.lbltextototal = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblcambio = new System.Windows.Forms.Label();
+            this.lblpagocon = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.btndescargarpdf = new FontAwesome.Sharp.IconButton();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.btnborrar = new FontAwesome.Sharp.IconButton();
             this.btnbuscar = new FontAwesome.Sharp.IconButton();
             this.btnsalir = new FontAwesome.Sharp.IconButton();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblpagocon = new System.Windows.Forms.Label();
-            this.lblcambio = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -93,7 +93,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label2.BackColor = System.Drawing.Color.DarkGreen;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
@@ -118,7 +118,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label12.BackColor = System.Drawing.Color.DarkGreen;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(129, 30);
@@ -138,7 +138,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label11.BackColor = System.Drawing.Color.DarkGreen;
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(361, 80);
             this.label11.Name = "label11";
@@ -157,7 +157,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label10.BackColor = System.Drawing.Color.DarkGreen;
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(361, 35);
             this.label10.Name = "label10";
@@ -167,7 +167,7 @@
             // 
             // label9
             // 
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label9.BackColor = System.Drawing.Color.DarkGreen;
             this.label9.Location = new System.Drawing.Point(11, 16);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(623, 94);
@@ -307,7 +307,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label14.BackColor = System.Drawing.Color.DarkGreen;
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(118, 80);
             this.label14.Name = "label14";
@@ -364,6 +364,46 @@
             this.groupBox3.TabIndex = 195;
             this.groupBox3.TabStop = false;
             // 
+            // lblcambio
+            // 
+            this.lblcambio.AutoSize = true;
+            this.lblcambio.BackColor = System.Drawing.Color.White;
+            this.lblcambio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcambio.Location = new System.Drawing.Point(288, 408);
+            this.lblcambio.Name = "lblcambio";
+            this.lblcambio.Size = new System.Drawing.Size(35, 15);
+            this.lblcambio.TabIndex = 200;
+            this.lblcambio.Text = "0.00";
+            // 
+            // lblpagocon
+            // 
+            this.lblpagocon.AutoSize = true;
+            this.lblpagocon.BackColor = System.Drawing.Color.White;
+            this.lblpagocon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpagocon.Location = new System.Drawing.Point(176, 408);
+            this.lblpagocon.Name = "lblpagocon";
+            this.lblpagocon.Size = new System.Drawing.Size(35, 15);
+            this.lblpagocon.TabIndex = 199;
+            this.lblpagocon.Text = "0.00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(117, 410);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 198;
+            this.label3.Text = "Paga con:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(240, 410);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(45, 13);
+            this.label4.TabIndex = 197;
+            this.label4.Text = "Cambio:";
+            // 
             // btndescargarpdf
             // 
             this.btndescargarpdf.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -385,9 +425,11 @@
             // 
             // iconPictureBox1
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.iconPictureBox1.BackColor = System.Drawing.Color.DarkGreen;
+            this.iconPictureBox1.BackgroundImage = global::Proyecto.Properties.Resources.logo;
+            this.iconPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Shopify;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ButtonFace;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 72;
@@ -435,7 +477,7 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnsalir.BackColor = System.Drawing.Color.DarkGreen;
             this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -452,46 +494,6 @@
             this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(117, 410);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 198;
-            this.label3.Text = "Paga con:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(240, 410);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 13);
-            this.label4.TabIndex = 197;
-            this.label4.Text = "Cambio:";
-            // 
-            // lblpagocon
-            // 
-            this.lblpagocon.AutoSize = true;
-            this.lblpagocon.BackColor = System.Drawing.Color.White;
-            this.lblpagocon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblpagocon.Location = new System.Drawing.Point(176, 408);
-            this.lblpagocon.Name = "lblpagocon";
-            this.lblpagocon.Size = new System.Drawing.Size(35, 15);
-            this.lblpagocon.TabIndex = 199;
-            this.lblpagocon.Text = "0.00";
-            // 
-            // lblcambio
-            // 
-            this.lblcambio.AutoSize = true;
-            this.lblcambio.BackColor = System.Drawing.Color.White;
-            this.lblcambio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcambio.Location = new System.Drawing.Point(288, 408);
-            this.lblcambio.Name = "lblcambio";
-            this.lblcambio.Size = new System.Drawing.Size(35, 15);
-            this.lblcambio.TabIndex = 200;
-            this.lblcambio.Text = "0.00";
             // 
             // frmBuscarVenta
             // 
