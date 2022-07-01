@@ -28,189 +28,272 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro));
-            this.pnlRegistro = new System.Windows.Forms.Panel();
-            this.pctBackRE = new System.Windows.Forms.PictureBox();
-            this.btnRegistrarRE = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtContraseñaRE = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtUsuarioRE = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtNombreRE = new System.Windows.Forms.TextBox();
-            this.txtApellidoRE = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pnlRegistro.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBackRE)).BeginInit();
+            this.pnlLogin = new System.Windows.Forms.Panel();
+            this.pnl1 = new System.Windows.Forms.Panel();
+            this.lblBienvenido = new System.Windows.Forms.Label();
+            this.btnLoginLO = new System.Windows.Forms.Button();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtMail = new System.Windows.Forms.TextBox();
+            this.pctApellido = new System.Windows.Forms.PictureBox();
+            this.pctContraseña = new System.Windows.Forms.PictureBox();
+            this.pctNombre = new System.Windows.Forms.PictureBox();
+            this.pctUsuario = new System.Windows.Forms.PictureBox();
+            this.pctCorreo = new System.Windows.Forms.PictureBox();
+            this.btnRegistrarLO = new System.Windows.Forms.Button();
+            this.btnIniciar = new System.Windows.Forms.Button();
+            this.pnlLogin.SuspendLayout();
+            this.pnl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctApellido)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctContraseña)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctNombre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctCorreo)).BeginInit();
             this.SuspendLayout();
             // 
-            // pnlRegistro
+            // pnlLogin
             // 
-            this.pnlRegistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
-            this.pnlRegistro.Controls.Add(this.pctBackRE);
-            this.pnlRegistro.Controls.Add(this.btnRegistrarRE);
-            this.pnlRegistro.Controls.Add(this.label6);
-            this.pnlRegistro.Controls.Add(this.txtContraseñaRE);
-            this.pnlRegistro.Controls.Add(this.label5);
-            this.pnlRegistro.Controls.Add(this.txtUsuarioRE);
-            this.pnlRegistro.Controls.Add(this.label4);
-            this.pnlRegistro.Controls.Add(this.label3);
-            this.pnlRegistro.Controls.Add(this.txtNombreRE);
-            this.pnlRegistro.Controls.Add(this.txtApellidoRE);
-            this.pnlRegistro.Controls.Add(this.label2);
-            this.pnlRegistro.Location = new System.Drawing.Point(4, 4);
-            this.pnlRegistro.Name = "pnlRegistro";
-            this.pnlRegistro.Size = new System.Drawing.Size(250, 368);
-            this.pnlRegistro.TabIndex = 10;
+            this.pnlLogin.BackColor = System.Drawing.Color.White;
+            this.pnlLogin.Controls.Add(this.pnl1);
+            this.pnlLogin.Controls.Add(this.btnRegistrarLO);
+            this.pnlLogin.Controls.Add(this.btnIniciar);
+            this.pnlLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlLogin.Location = new System.Drawing.Point(0, 0);
+            this.pnlLogin.Name = "pnlLogin";
+            this.pnlLogin.Size = new System.Drawing.Size(445, 334);
+            this.pnlLogin.TabIndex = 11;
             // 
-            // pctBackRE
+            // pnl1
             // 
-            this.pctBackRE.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pctBackRE.ErrorImage")));
-            this.pctBackRE.Image = global::vista.Properties.Resources.image_removebg_preview;
-            this.pctBackRE.Location = new System.Drawing.Point(8, 15);
-            this.pctBackRE.Name = "pctBackRE";
-            this.pctBackRE.Size = new System.Drawing.Size(36, 25);
-            this.pctBackRE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctBackRE.TabIndex = 23;
-            this.pctBackRE.TabStop = false;
-            this.pctBackRE.Click += new System.EventHandler(this.pctBackRE_Click);
-            this.pctBackRE.MouseLeave += new System.EventHandler(this.pctBackRE_MouseLeave);
-            this.pctBackRE.MouseHover += new System.EventHandler(this.pctBackRE_MouseHover);
+            this.pnl1.Controls.Add(this.lblBienvenido);
+            this.pnl1.Controls.Add(this.btnLoginLO);
+            this.pnl1.Controls.Add(this.txtUsuario);
+            this.pnl1.Controls.Add(this.txtNombre);
+            this.pnl1.Controls.Add(this.pctNombre);
+            this.pnl1.Controls.Add(this.pctUsuario);
+            this.pnl1.Controls.Add(this.txtMail);
+            this.pnl1.Controls.Add(this.pctCorreo);
+            this.pnl1.Controls.Add(this.txtContraseña);
+            this.pnl1.Controls.Add(this.txtApellido);
+            this.pnl1.Controls.Add(this.pctApellido);
+            this.pnl1.Controls.Add(this.pctContraseña);
+            this.pnl1.Location = new System.Drawing.Point(3, 66);
+            this.pnl1.Name = "pnl1";
+            this.pnl1.Size = new System.Drawing.Size(442, 265);
+            this.pnl1.TabIndex = 7;
             // 
-            // btnRegistrarRE
+            // lblBienvenido
             // 
-            this.btnRegistrarRE.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarRE.Location = new System.Drawing.Point(61, 288);
-            this.btnRegistrarRE.Name = "btnRegistrarRE";
-            this.btnRegistrarRE.Size = new System.Drawing.Size(126, 61);
-            this.btnRegistrarRE.TabIndex = 4;
-            this.btnRegistrarRE.Text = "Registrar";
-            this.btnRegistrarRE.UseVisualStyleBackColor = true;
+            this.lblBienvenido.AutoSize = true;
+            this.lblBienvenido.Font = new System.Drawing.Font("Georgia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenido.Location = new System.Drawing.Point(134, 9);
+            this.lblBienvenido.Name = "lblBienvenido";
+            this.lblBienvenido.Size = new System.Drawing.Size(175, 38);
+            this.lblBienvenido.TabIndex = 4;
+            this.lblBienvenido.Text = "Registrarse";
             // 
-            // label6
+            // btnLoginLO
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 230);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 15);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "Contraseña";
+            this.btnLoginLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnLoginLO.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnLoginLO.FlatAppearance.BorderSize = 0;
+            this.btnLoginLO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLoginLO.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoginLO.ForeColor = System.Drawing.Color.White;
+            this.btnLoginLO.Location = new System.Drawing.Point(65, 208);
+            this.btnLoginLO.Name = "btnLoginLO";
+            this.btnLoginLO.Size = new System.Drawing.Size(312, 48);
+            this.btnLoginLO.TabIndex = 5;
+            this.btnLoginLO.Text = "Registrarse";
+            this.btnLoginLO.UseVisualStyleBackColor = false;
             // 
-            // txtContraseñaRE
+            // txtNombre
             // 
-            this.txtContraseñaRE.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseñaRE.ForeColor = System.Drawing.Color.Black;
-            this.txtContraseñaRE.Location = new System.Drawing.Point(9, 248);
-            this.txtContraseñaRE.Name = "txtContraseñaRE";
-            this.txtContraseñaRE.PasswordChar = '*';
-            this.txtContraseñaRE.Size = new System.Drawing.Size(227, 26);
-            this.txtContraseñaRE.TabIndex = 3;
+            this.txtNombre.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombre.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.Color.Silver;
+            this.txtNombre.Location = new System.Drawing.Point(3, 72);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(201, 22);
+            this.txtNombre.TabIndex = 0;
+            this.txtNombre.Text = "Nombre";
+            this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
+            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
-            // label5
+            // txtApellido
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 170);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 15);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Nombre de usuario";
+            this.txtApellido.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtApellido.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.ForeColor = System.Drawing.Color.Silver;
+            this.txtApellido.Location = new System.Drawing.Point(238, 72);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(201, 22);
+            this.txtApellido.TabIndex = 1;
+            this.txtApellido.Text = "Apellido";
+            this.txtApellido.Enter += new System.EventHandler(this.txtApellido_Enter);
+            this.txtApellido.Leave += new System.EventHandler(this.txtApellido_Leave);
             // 
-            // txtUsuarioRE
+            // txtUsuario
             // 
-            this.txtUsuarioRE.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuarioRE.ForeColor = System.Drawing.Color.Black;
-            this.txtUsuarioRE.Location = new System.Drawing.Point(9, 188);
-            this.txtUsuarioRE.Name = "txtUsuarioRE";
-            this.txtUsuarioRE.Size = new System.Drawing.Size(227, 26);
-            this.txtUsuarioRE.TabIndex = 2;
+            this.txtUsuario.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuario.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.ForeColor = System.Drawing.Color.Silver;
+            this.txtUsuario.Location = new System.Drawing.Point(3, 119);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(201, 22);
+            this.txtUsuario.TabIndex = 2;
+            this.txtUsuario.Text = "Nombre de Usuario";
+            this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
+            this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
-            // label4
+            // txtContraseña
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(8, 71);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 15);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Nombre";
+            this.txtContraseña.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtContraseña.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.ForeColor = System.Drawing.Color.Silver;
+            this.txtContraseña.Location = new System.Drawing.Point(238, 120);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(201, 22);
+            this.txtContraseña.TabIndex = 3;
+            this.txtContraseña.Text = "Contraseña";
+            this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
+            this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
             // 
-            // label3
+            // txtMail
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 118);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Apellido";
+            this.txtMail.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMail.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMail.ForeColor = System.Drawing.Color.Silver;
+            this.txtMail.Location = new System.Drawing.Point(49, 165);
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(344, 22);
+            this.txtMail.TabIndex = 4;
+            this.txtMail.Text = "Correo Electronico";
+            this.txtMail.Enter += new System.EventHandler(this.txtMail_Enter);
+            this.txtMail.Leave += new System.EventHandler(this.txtMail_Leave);
             // 
-            // txtNombreRE
+            // pctApellido
             // 
-            this.txtNombreRE.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreRE.ForeColor = System.Drawing.Color.Black;
-            this.txtNombreRE.Location = new System.Drawing.Point(9, 89);
-            this.txtNombreRE.Name = "txtNombreRE";
-            this.txtNombreRE.Size = new System.Drawing.Size(227, 26);
-            this.txtNombreRE.TabIndex = 0;
+            this.pctApellido.BackColor = System.Drawing.Color.DarkGray;
+            this.pctApellido.Location = new System.Drawing.Point(238, 72);
+            this.pctApellido.Name = "pctApellido";
+            this.pctApellido.Size = new System.Drawing.Size(201, 23);
+            this.pctApellido.TabIndex = 7;
+            this.pctApellido.TabStop = false;
             // 
-            // txtApellidoRE
+            // pctContraseña
             // 
-            this.txtApellidoRE.BackColor = System.Drawing.Color.White;
-            this.txtApellidoRE.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidoRE.ForeColor = System.Drawing.Color.Black;
-            this.txtApellidoRE.Location = new System.Drawing.Point(8, 136);
-            this.txtApellidoRE.Name = "txtApellidoRE";
-            this.txtApellidoRE.Size = new System.Drawing.Size(227, 26);
-            this.txtApellidoRE.TabIndex = 1;
+            this.pctContraseña.BackColor = System.Drawing.Color.DarkGray;
+            this.pctContraseña.Location = new System.Drawing.Point(238, 120);
+            this.pctContraseña.Name = "pctContraseña";
+            this.pctContraseña.Size = new System.Drawing.Size(201, 23);
+            this.pctContraseña.TabIndex = 7;
+            this.pctContraseña.TabStop = false;
             // 
-            // label2
+            // pctNombre
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Bright", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(50, 12);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 34);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Registro";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pctNombre.BackColor = System.Drawing.Color.DarkGray;
+            this.pctNombre.Location = new System.Drawing.Point(3, 72);
+            this.pctNombre.Name = "pctNombre";
+            this.pctNombre.Size = new System.Drawing.Size(201, 23);
+            this.pctNombre.TabIndex = 7;
+            this.pctNombre.TabStop = false;
+            // 
+            // pctUsuario
+            // 
+            this.pctUsuario.BackColor = System.Drawing.Color.DarkGray;
+            this.pctUsuario.Location = new System.Drawing.Point(3, 119);
+            this.pctUsuario.Name = "pctUsuario";
+            this.pctUsuario.Size = new System.Drawing.Size(201, 23);
+            this.pctUsuario.TabIndex = 7;
+            this.pctUsuario.TabStop = false;
+            // 
+            // pctCorreo
+            // 
+            this.pctCorreo.BackColor = System.Drawing.Color.DarkGray;
+            this.pctCorreo.Location = new System.Drawing.Point(49, 165);
+            this.pctCorreo.Name = "pctCorreo";
+            this.pctCorreo.Size = new System.Drawing.Size(344, 23);
+            this.pctCorreo.TabIndex = 7;
+            this.pctCorreo.TabStop = false;
+            // 
+            // btnRegistrarLO
+            // 
+            this.btnRegistrarLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnRegistrarLO.FlatAppearance.BorderSize = 0;
+            this.btnRegistrarLO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrarLO.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarLO.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnRegistrarLO.Location = new System.Drawing.Point(12, 12);
+            this.btnRegistrarLO.Name = "btnRegistrarLO";
+            this.btnRegistrarLO.Size = new System.Drawing.Size(218, 48);
+            this.btnRegistrarLO.TabIndex = 3;
+            this.btnRegistrarLO.Text = "Registrar";
+            this.btnRegistrarLO.UseVisualStyleBackColor = false;
+            // 
+            // btnIniciar
+            // 
+            this.btnIniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(156)))), ((int)(((byte)(153)))));
+            this.btnIniciar.FlatAppearance.BorderSize = 0;
+            this.btnIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIniciar.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciar.ForeColor = System.Drawing.Color.DimGray;
+            this.btnIniciar.Location = new System.Drawing.Point(227, 12);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(206, 48);
+            this.btnIniciar.TabIndex = 5;
+            this.btnIniciar.Text = "Iniciar Sesión";
+            this.btnIniciar.UseVisualStyleBackColor = false;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(257, 377);
-            this.Controls.Add(this.pnlRegistro);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(445, 334);
+            this.Controls.Add(this.pnlLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Registro";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
-            this.pnlRegistro.ResumeLayout(false);
-            this.pnlRegistro.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBackRE)).EndInit();
+            this.pnlLogin.ResumeLayout(false);
+            this.pnl1.ResumeLayout(false);
+            this.pnl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctApellido)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctContraseña)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctNombre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctCorreo)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel pnlRegistro;
-        private System.Windows.Forms.Button btnRegistrarRE;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtContraseñaRE;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtUsuarioRE;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtNombreRE;
-        private System.Windows.Forms.TextBox txtApellidoRE;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pctBackRE;
+        private System.Windows.Forms.Panel pnlLogin;
+        private System.Windows.Forms.Button btnRegistrarLO;
+        private System.Windows.Forms.Label lblBienvenido;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.Button btnLoginLO;
+        private System.Windows.Forms.Button btnIniciar;
+        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.Panel pnl1;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.PictureBox pctNombre;
+        private System.Windows.Forms.PictureBox pctApellido;
+        private System.Windows.Forms.PictureBox pctContraseña;
+        private System.Windows.Forms.PictureBox pctUsuario;
+        private System.Windows.Forms.TextBox txtMail;
+        private System.Windows.Forms.PictureBox pctCorreo;
     }
 }
