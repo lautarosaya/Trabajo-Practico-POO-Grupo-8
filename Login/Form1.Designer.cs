@@ -30,7 +30,6 @@
         {
             this.pnlLogin = new System.Windows.Forms.Panel();
             this.btnRegistrarLO = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnLoginLO = new System.Windows.Forms.Button();
@@ -39,22 +38,22 @@
             // 
             // pnlLogin
             // 
-            this.pnlLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
+            this.pnlLogin.BackColor = System.Drawing.Color.White;
             this.pnlLogin.Controls.Add(this.btnRegistrarLO);
-            this.pnlLogin.Controls.Add(this.label1);
             this.pnlLogin.Controls.Add(this.txtUsuario);
             this.pnlLogin.Controls.Add(this.txtContraseña);
             this.pnlLogin.Controls.Add(this.btnLoginLO);
-            this.pnlLogin.Location = new System.Drawing.Point(8, 11);
+            this.pnlLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlLogin.Location = new System.Drawing.Point(0, 0);
             this.pnlLogin.Name = "pnlLogin";
-            this.pnlLogin.Size = new System.Drawing.Size(264, 255);
+            this.pnlLogin.Size = new System.Drawing.Size(402, 277);
             this.pnlLogin.TabIndex = 0;
             // 
             // btnRegistrarLO
             // 
             this.btnRegistrarLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
-            this.btnRegistrarLO.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarLO.Location = new System.Drawing.Point(76, 203);
+            this.btnRegistrarLO.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarLO.Location = new System.Drawing.Point(127, 231);
             this.btnRegistrarLO.Name = "btnRegistrarLO";
             this.btnRegistrarLO.Size = new System.Drawing.Size(113, 34);
             this.btnRegistrarLO.TabIndex = 3;
@@ -62,25 +61,14 @@
             this.btnRegistrarLO.UseVisualStyleBackColor = false;
             this.btnRegistrarLO.Click += new System.EventHandler(this.btnRegistrarLO_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(23, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 70);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Sánchez \r\nAutomotores";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // txtUsuario
             // 
             this.txtUsuario.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.txtUsuario.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.Silver;
-            this.txtUsuario.Location = new System.Drawing.Point(29, 89);
+            this.txtUsuario.Location = new System.Drawing.Point(49, 86);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(206, 26);
+            this.txtUsuario.Size = new System.Drawing.Size(312, 29);
             this.txtUsuario.TabIndex = 0;
             this.txtUsuario.Text = "Nombre de usuario";
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
@@ -89,11 +77,11 @@
             // txtContraseña
             // 
             this.txtContraseña.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtContraseña.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.Silver;
-            this.txtContraseña.Location = new System.Drawing.Point(29, 126);
+            this.txtContraseña.Location = new System.Drawing.Point(49, 131);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(206, 26);
+            this.txtContraseña.Size = new System.Drawing.Size(312, 29);
             this.txtContraseña.TabIndex = 1;
             this.txtContraseña.Text = "Contraseña";
             this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
@@ -101,11 +89,14 @@
             // 
             // btnLoginLO
             // 
-            this.btnLoginLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(221)))), ((int)(((byte)(238)))));
-            this.btnLoginLO.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoginLO.Location = new System.Drawing.Point(29, 158);
+            this.btnLoginLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnLoginLO.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnLoginLO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLoginLO.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoginLO.ForeColor = System.Drawing.Color.White;
+            this.btnLoginLO.Location = new System.Drawing.Point(49, 176);
             this.btnLoginLO.Name = "btnLoginLO";
-            this.btnLoginLO.Size = new System.Drawing.Size(206, 39);
+            this.btnLoginLO.Size = new System.Drawing.Size(312, 39);
             this.btnLoginLO.TabIndex = 2;
             this.btnLoginLO.Text = "Ingresar";
             this.btnLoginLO.UseVisualStyleBackColor = false;
@@ -115,10 +106,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(195)))), ((int)(((byte)(74)))));
-            this.ClientSize = new System.Drawing.Size(276, 272);
+            this.AutoScroll = true;
+            this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(402, 277);
             this.Controls.Add(this.pnlLogin);
-            this.MaximizeBox = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -135,7 +128,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnLoginLO;
         private System.Windows.Forms.Button btnRegistrarLO;
-        private System.Windows.Forms.Label label1;
     }
 }
 

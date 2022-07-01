@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace vista
 {
@@ -17,12 +19,43 @@ namespace vista
             InitializeComponent();
         }
         char passwordchar;
-        
-        private void Form1_Load(object sender, EventArgs e)
+        //Colores Seteados//
+        Color greenHoover = Color.FromArgb(20, 135, 104);
+        //Color mouse leave//
+        Color greenLeave = Color.FromArgb(65, 168, 95);
+
+
+        //DRAG MOVE, Mover formulario con panel//
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+
+        public const int HTCAPTION = 0x2;
+
+        [DllImport("User32.dll")]
+
+        public static extern bool ReleaseCapture();
+
+        [DllImport("User32.dll")]
+
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        //Fin del código mover (drag)//
+
+        /*
+        if (e.Button == MouseButtons.Left)
+
         {
-            this.Size = new Size(300, 318);
+
+        ReleaseCapture();
+
+        SendMessage(Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+
+        }*/
+
+    private void Form1_Load(object sender, EventArgs e)
+        {
+            
             //GetPasswordChar
             passwordchar = txtContraseña.PasswordChar;
+            btnLoginLO.FlatAppearance.MouseOverBackColor = greenHoover;
         }
 
         private void txtUsuario_Enter(object sender, EventArgs e)
@@ -91,5 +124,6 @@ namespace vista
             vista.Login.Registro registroFORM = new vista.Login.Registro();
             registroFORM.ShowDialog();
         }
+
     }
 }

@@ -84,3 +84,4 @@ C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\obj\Debug\
 C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.CopyComplete
 C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.exe
 C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.pdb
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\bin\Debug\FontAwesome.Sharp.dll
