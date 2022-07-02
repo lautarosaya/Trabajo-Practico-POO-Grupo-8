@@ -29,16 +29,9 @@
         private void InitializeComponent()
         {
             this.btnVer = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Factura = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnPagar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnCloseTre = new System.Windows.Forms.Button();
-            this.btnCatalogo = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnCloseDos = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -51,12 +44,15 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Factura = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnVer
@@ -68,34 +64,6 @@
             this.btnVer.Text = "Ver Facturas";
             this.btnVer.UseVisualStyleBackColor = true;
             this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Factura,
-            this.Cliente,
-            this.Fecha});
-            this.dataGridView1.Location = new System.Drawing.Point(0, 49);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(343, 106);
-            this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.Visible = false;
-            // 
-            // Factura
-            // 
-            this.Factura.HeaderText = "Factura#";
-            this.Factura.Name = "Factura";
-            // 
-            // Cliente
-            // 
-            this.Cliente.HeaderText = "ID Cliente";
-            this.Cliente.Name = "Cliente";
-            // 
-            // Fecha
-            // 
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
             // 
             // btnClose
             // 
@@ -121,45 +89,13 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.btnVer);
             this.groupBox1.Controls.Add(this.btnClose);
-            this.groupBox1.Location = new System.Drawing.Point(302, 208);
+            this.groupBox1.Location = new System.Drawing.Point(296, 209);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(461, 180);
+            this.groupBox1.Size = new System.Drawing.Size(461, 248);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.btnCloseTre);
-            this.groupBox3.Controls.Add(this.btnCatalogo);
-            this.groupBox3.Location = new System.Drawing.Point(120, 106);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(382, 215);
-            this.groupBox3.TabIndex = 7;
-            this.groupBox3.TabStop = false;
-            // 
-            // btnCloseTre
-            // 
-            this.btnCloseTre.Location = new System.Drawing.Point(358, 19);
-            this.btnCloseTre.Name = "btnCloseTre";
-            this.btnCloseTre.Size = new System.Drawing.Size(18, 19);
-            this.btnCloseTre.TabIndex = 8;
-            this.btnCloseTre.Text = "X";
-            this.btnCloseTre.UseVisualStyleBackColor = true;
-            this.btnCloseTre.Visible = false;
-            this.btnCloseTre.Click += new System.EventHandler(this.btnCloseTre_Click);
-            // 
-            // btnCatalogo
-            // 
-            this.btnCatalogo.Location = new System.Drawing.Point(6, 17);
-            this.btnCatalogo.Name = "btnCatalogo";
-            this.btnCatalogo.Size = new System.Drawing.Size(75, 23);
-            this.btnCatalogo.TabIndex = 6;
-            this.btnCatalogo.Text = "Catalogo";
-            this.btnCatalogo.UseVisualStyleBackColor = true;
-            this.btnCatalogo.Click += new System.EventHandler(this.btnCatalogo_Click);
             // 
             // groupBox2
             // 
@@ -264,23 +200,50 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Wenseslao Traverso";
             // 
+            // Fecha
+            // 
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            // 
+            // Cliente
+            // 
+            this.Cliente.HeaderText = "ID Cliente";
+            this.Cliente.Name = "Cliente";
+            // 
+            // Factura
+            // 
+            this.Factura.HeaderText = "Factura#";
+            this.Factura.Name = "Factura";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Factura,
+            this.Cliente,
+            this.Fecha});
+            this.dataGridView1.Location = new System.Drawing.Point(0, 49);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(343, 106);
+            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.Visible = false;
+            // 
             // Interfaz_Cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(769, 400);
+            this.ClientSize = new System.Drawing.Size(769, 537);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Interfaz_Cliente";
             this.Text = "Interfaz_Cliente";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,10 +251,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnVer;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Factura;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnPagar;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -302,13 +261,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ClientePagar;
         private System.Windows.Forms.DataGridViewTextBoxColumn MontoPagar;
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaVen;
-        private System.Windows.Forms.Button btnCatalogo;
-        private System.Windows.Forms.Button btnCloseTre;
-        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Factura;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cliente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
     }
 }
