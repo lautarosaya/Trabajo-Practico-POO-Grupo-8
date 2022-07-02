@@ -19,7 +19,7 @@ namespace vista
             InitializeComponent();
         }
         //Variables//
-
+        int close = 1;
         string Usuariotxt = "Nombre de usuario";
         char passwordchar;
         //Colores Seteados//
@@ -128,7 +128,9 @@ namespace vista
             vista.Login.Registro registroFORM = new vista.Login.Registro();
             this.Hide();
             registroFORM.ShowDialog();
+            //El programa se cerrará cuando el usuario cierre el formulario Registro//
             this.Show();
+                                 
         }
      
         private void btnRegistrarLO_MouseLeave(object sender, EventArgs e)
@@ -188,6 +190,11 @@ namespace vista
                     MessageBox.Show("Error");
                     break;
             }
+        }
+
+        public void closeFORM(int i)
+        {
+            close = i;
         }
     }
 }
