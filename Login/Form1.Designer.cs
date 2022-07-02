@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pnlLogin = new System.Windows.Forms.Panel();
+            this.txtSee = new FontAwesome.Sharp.IconButton();
             this.btnRegistrarLO = new System.Windows.Forms.Button();
             this.lblBienvenido = new System.Windows.Forms.Label();
             this.btnLoginLO = new System.Windows.Forms.Button();
@@ -45,6 +46,7 @@
             // pnlLogin
             // 
             this.pnlLogin.BackColor = System.Drawing.Color.White;
+            this.pnlLogin.Controls.Add(this.txtSee);
             this.pnlLogin.Controls.Add(this.btnRegistrarLO);
             this.pnlLogin.Controls.Add(this.lblBienvenido);
             this.pnlLogin.Controls.Add(this.btnLoginLO);
@@ -58,6 +60,21 @@
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(402, 300);
             this.pnlLogin.TabIndex = 0;
+            // 
+            // txtSee
+            // 
+            this.txtSee.BackColor = System.Drawing.Color.Transparent;
+            this.txtSee.FlatAppearance.BorderSize = 0;
+            this.txtSee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtSee.IconChar = FontAwesome.Sharp.IconChar.Eye;
+            this.txtSee.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(137)))));
+            this.txtSee.IconFont = FontAwesome.Sharp.IconFont.Regular;
+            this.txtSee.IconSize = 40;
+            this.txtSee.Location = new System.Drawing.Point(352, 192);
+            this.txtSee.Name = "txtSee";
+            this.txtSee.Size = new System.Drawing.Size(28, 27);
+            this.txtSee.TabIndex = 8;
+            this.txtSee.UseVisualStyleBackColor = false;
             // 
             // btnRegistrarLO
             // 
@@ -197,6 +214,7 @@
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.PictureBox pctUsuario;
         private System.Windows.Forms.PictureBox pctPassword;
+        private FontAwesome.Sharp.IconButton txtSee;
     }
 }
 

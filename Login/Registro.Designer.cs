@@ -32,25 +32,25 @@
             this.pnl1 = new System.Windows.Forms.Panel();
             this.lblBienvenido = new System.Windows.Forms.Label();
             this.btnLoginLO = new System.Windows.Forms.Button();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.txtMail = new System.Windows.Forms.TextBox();
-            this.pctApellido = new System.Windows.Forms.PictureBox();
-            this.pctContraseña = new System.Windows.Forms.PictureBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.pctNombre = new System.Windows.Forms.PictureBox();
             this.pctUsuario = new System.Windows.Forms.PictureBox();
+            this.txtMail = new System.Windows.Forms.TextBox();
             this.pctCorreo = new System.Windows.Forms.PictureBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.pctApellido = new System.Windows.Forms.PictureBox();
+            this.pctContraseña = new System.Windows.Forms.PictureBox();
             this.btnRegistrarLO = new System.Windows.Forms.Button();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.pnlLogin.SuspendLayout();
             this.pnl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctApellido)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctContraseña)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctNombre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctCorreo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctApellido)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctContraseña)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlLogin
@@ -108,34 +108,7 @@
             this.btnLoginLO.TabIndex = 5;
             this.btnLoginLO.Text = "Registrarse";
             this.btnLoginLO.UseVisualStyleBackColor = false;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombre.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.ForeColor = System.Drawing.Color.Silver;
-            this.txtNombre.Location = new System.Drawing.Point(3, 72);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(201, 22);
-            this.txtNombre.TabIndex = 0;
-            this.txtNombre.Text = "Nombre";
-            this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
-            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
-            // 
-            // txtApellido
-            // 
-            this.txtApellido.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtApellido.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.ForeColor = System.Drawing.Color.Silver;
-            this.txtApellido.Location = new System.Drawing.Point(238, 72);
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(201, 22);
-            this.txtApellido.TabIndex = 1;
-            this.txtApellido.Text = "Apellido";
-            this.txtApellido.Enter += new System.EventHandler(this.txtApellido_Enter);
-            this.txtApellido.Leave += new System.EventHandler(this.txtApellido_Leave);
+            this.btnLoginLO.Click += new System.EventHandler(this.btnLoginLO_Click);
             // 
             // txtUsuario
             // 
@@ -151,51 +124,19 @@
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
-            // txtContraseña
+            // txtNombre
             // 
-            this.txtContraseña.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContraseña.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContraseña.ForeColor = System.Drawing.Color.Silver;
-            this.txtContraseña.Location = new System.Drawing.Point(238, 120);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(201, 22);
-            this.txtContraseña.TabIndex = 3;
-            this.txtContraseña.Text = "Contraseña";
-            this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
-            this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
-            // 
-            // txtMail
-            // 
-            this.txtMail.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.txtMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtMail.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMail.ForeColor = System.Drawing.Color.Silver;
-            this.txtMail.Location = new System.Drawing.Point(49, 165);
-            this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(344, 22);
-            this.txtMail.TabIndex = 4;
-            this.txtMail.Text = "Correo Electronico";
-            this.txtMail.Enter += new System.EventHandler(this.txtMail_Enter);
-            this.txtMail.Leave += new System.EventHandler(this.txtMail_Leave);
-            // 
-            // pctApellido
-            // 
-            this.pctApellido.BackColor = System.Drawing.Color.DarkGray;
-            this.pctApellido.Location = new System.Drawing.Point(238, 72);
-            this.pctApellido.Name = "pctApellido";
-            this.pctApellido.Size = new System.Drawing.Size(201, 23);
-            this.pctApellido.TabIndex = 7;
-            this.pctApellido.TabStop = false;
-            // 
-            // pctContraseña
-            // 
-            this.pctContraseña.BackColor = System.Drawing.Color.DarkGray;
-            this.pctContraseña.Location = new System.Drawing.Point(238, 120);
-            this.pctContraseña.Name = "pctContraseña";
-            this.pctContraseña.Size = new System.Drawing.Size(201, 23);
-            this.pctContraseña.TabIndex = 7;
-            this.pctContraseña.TabStop = false;
+            this.txtNombre.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombre.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.Color.Silver;
+            this.txtNombre.Location = new System.Drawing.Point(3, 72);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(201, 22);
+            this.txtNombre.TabIndex = 0;
+            this.txtNombre.Text = "Nombre";
+            this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
+            this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // pctNombre
             // 
@@ -215,6 +156,20 @@
             this.pctUsuario.TabIndex = 7;
             this.pctUsuario.TabStop = false;
             // 
+            // txtMail
+            // 
+            this.txtMail.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtMail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMail.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMail.ForeColor = System.Drawing.Color.Silver;
+            this.txtMail.Location = new System.Drawing.Point(49, 165);
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(344, 22);
+            this.txtMail.TabIndex = 4;
+            this.txtMail.Text = "Correo Electronico";
+            this.txtMail.Enter += new System.EventHandler(this.txtMail_Enter);
+            this.txtMail.Leave += new System.EventHandler(this.txtMail_Leave);
+            // 
             // pctCorreo
             // 
             this.pctCorreo.BackColor = System.Drawing.Color.DarkGray;
@@ -223,6 +178,52 @@
             this.pctCorreo.Size = new System.Drawing.Size(344, 23);
             this.pctCorreo.TabIndex = 7;
             this.pctCorreo.TabStop = false;
+            // 
+            // txtContraseña
+            // 
+            this.txtContraseña.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtContraseña.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.ForeColor = System.Drawing.Color.Silver;
+            this.txtContraseña.Location = new System.Drawing.Point(238, 120);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(201, 22);
+            this.txtContraseña.TabIndex = 3;
+            this.txtContraseña.Text = "Contraseña";
+            this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
+            this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
+            // 
+            // txtApellido
+            // 
+            this.txtApellido.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtApellido.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.ForeColor = System.Drawing.Color.Silver;
+            this.txtApellido.Location = new System.Drawing.Point(238, 72);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(201, 22);
+            this.txtApellido.TabIndex = 1;
+            this.txtApellido.Text = "Apellido";
+            this.txtApellido.Enter += new System.EventHandler(this.txtApellido_Enter);
+            this.txtApellido.Leave += new System.EventHandler(this.txtApellido_Leave);
+            // 
+            // pctApellido
+            // 
+            this.pctApellido.BackColor = System.Drawing.Color.DarkGray;
+            this.pctApellido.Location = new System.Drawing.Point(238, 72);
+            this.pctApellido.Name = "pctApellido";
+            this.pctApellido.Size = new System.Drawing.Size(201, 23);
+            this.pctApellido.TabIndex = 7;
+            this.pctApellido.TabStop = false;
+            // 
+            // pctContraseña
+            // 
+            this.pctContraseña.BackColor = System.Drawing.Color.DarkGray;
+            this.pctContraseña.Location = new System.Drawing.Point(238, 120);
+            this.pctContraseña.Name = "pctContraseña";
+            this.pctContraseña.Size = new System.Drawing.Size(201, 23);
+            this.pctContraseña.TabIndex = 7;
+            this.pctContraseña.TabStop = false;
             // 
             // btnRegistrarLO
             // 
@@ -269,11 +270,11 @@
             this.pnlLogin.ResumeLayout(false);
             this.pnl1.ResumeLayout(false);
             this.pnl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctApellido)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctContraseña)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctNombre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctCorreo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctApellido)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctContraseña)).EndInit();
             this.ResumeLayout(false);
 
         }

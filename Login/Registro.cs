@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Mail;
 
 namespace vista.Login
 {
@@ -160,6 +162,33 @@ namespace vista.Login
             this.Close();
         }
 
-       
+        private void btnLoginLO_Click(object sender, EventArgs e)
+        {
+            Controladora.usuarios controladora = new Controladora.usuarios();
+
+            //Envio de Mail, utilizando mail Corporativo de nuestra empresa//
+
+            //Variables mail, nombre, apellido//
+            string nombre = txtNombre.Text;
+            string apellido = txtApellido.Text;
+            string mail = txtMail.Text;
+            try
+            {
+                SmtpClient cliente = controladora.SmtpClient();
+
+                MailMessage correo = controladora.Mail_Registro(mail, nombre, apellido);
+
+                cliente.Send(correo);
+            }
+            catch (Exception ex)
+            {
+                DialogResult dialog = MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+              
+            }
+
+
+        }
     }
 }
+
+            
