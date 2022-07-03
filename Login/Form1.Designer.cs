@@ -69,12 +69,16 @@
             this.txtSee.IconChar = FontAwesome.Sharp.IconChar.Eye;
             this.txtSee.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(137)))));
             this.txtSee.IconFont = FontAwesome.Sharp.IconFont.Regular;
-            this.txtSee.IconSize = 40;
-            this.txtSee.Location = new System.Drawing.Point(352, 192);
+            this.txtSee.IconSize = 33;
+            this.txtSee.Location = new System.Drawing.Point(337, 195);
             this.txtSee.Name = "txtSee";
-            this.txtSee.Size = new System.Drawing.Size(28, 27);
-            this.txtSee.TabIndex = 8;
+            this.txtSee.Size = new System.Drawing.Size(24, 22);
+            this.txtSee.TabIndex = 1;
+            this.txtSee.Tag = "Contraseña";
             this.txtSee.UseVisualStyleBackColor = false;
+            this.txtSee.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtSee_MouseClick);
+            this.txtSee.MouseEnter += new System.EventHandler(this.txtSee_MouseEnter);
+            this.txtSee.MouseLeave += new System.EventHandler(this.txtSee_MouseLeave);
             // 
             // btnRegistrarLO
             // 
@@ -145,6 +149,7 @@
             this.txtContraseña.TabIndex = 1;
             this.txtContraseña.Tag = "Contraseña";
             this.txtContraseña.Text = "Contraseña";
+            this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
             this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
             // 

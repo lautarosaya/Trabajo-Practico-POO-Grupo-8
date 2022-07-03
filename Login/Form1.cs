@@ -19,7 +19,8 @@ namespace vista
             InitializeComponent();
         }
         //Variables//
-        int close = 1;
+        int passwordText;
+        bool passwordEyeON = false;
         string Usuariotxt = "Nombre de usuario";
         char passwordchar;
         //Colores Seteados//
@@ -61,14 +62,15 @@ namespace vista
             passwordchar = txtContraseña.PasswordChar;
             btnLoginLO.FlatAppearance.MouseOverBackColor = greenHoover;
             btnIniciar.FlatAppearance.MouseOverBackColor = greenHoover;
-            btnRegistrarLO.FlatAppearance.MouseOverBackColor = grisHoover;          
-            
+            btnRegistrarLO.FlatAppearance.MouseOverBackColor = grisHoover;
+            txtSee.Visible = false;
         }
 
         private void txtUsuario_Enter(object sender, EventArgs e)
         {
             placeholder(txtUsuario, 1, Usuariotxt);
-            pctLineDecoration(pctUsuario, 1);                   
+            pctLineDecoration(pctUsuario, 1);      
+            
         }
 
         private void txtUsuario_Leave(object sender, EventArgs e)
@@ -79,25 +81,48 @@ namespace vista
 
         private void txtContraseña_Enter(object sender, EventArgs e)
         {
-            if (txtContraseña.Text == "Contraseña")
+            if(txtContraseña.Text == "Contraseña")
             {
-                txtContraseña.Text = "";
-                txtContraseña.PasswordChar = '*';
-                txtContraseña.ForeColor = Color.Black;
+                passwordCHAR(1);
             }
-            pctLineDecoration(pctPassword, 1);
+            if(txtContraseña.Text != String.Empty && passwordEyeON == false)
+            {
+                passwordCHAR(3);
+                passwordCHAR(7);
+            }
+            if(txtContraseña.Text != String.Empty && passwordEyeON == true)
+            {
+                passwordCHAR(3);
+                passwordCHAR(6);
+            }
+
         }
 
+        private void txtContraseña_TextChanged(object sender, EventArgs e)
+        {
+            if (txtContraseña.Text != String.Empty)
+            {
+                passwordCHAR(3);
+            }
+        }
 
+        
         private void txtContraseña_Leave(object sender, EventArgs e)
         {
             if (txtContraseña.Text == "")
-            { 
-                txtContraseña.Text = "Contraseña";
-                txtContraseña.PasswordChar = passwordchar;
-                txtContraseña.ForeColor = Color.Silver;
+            {
+                passwordCHAR(2);
+            }          
+        
+            if (txtContraseña.Text != String.Empty && passwordEyeON == true)
+            {
+                passwordCHAR(3);
             }
-            pctLineDecoration(pctPassword, 2);
+            if (passwordEyeON == true && txtContraseña.Text == "Contraseña")
+            {
+                passwordCHAR(5);
+            }
+
         }
 
         private void btnRegistrarRE_Click(object sender, EventArgs e)
@@ -143,6 +168,7 @@ namespace vista
             btnRegistrarLO.ForeColor = Color.White;
         }
 
+        //Funciones//
         public void pctLineDecoration(PictureBox a, int caso)
         {
             //Está función la uso para las lineas de color verde y gris, una decoración bastante moderna//
@@ -192,9 +218,76 @@ namespace vista
             }
         }
 
-        public void closeFORM(int i)
+        public void passwordCHAR(int caso)
         {
-            close = i;
+            
+            switch (caso)
+            {
+                case 1:
+                    txtContraseña.Text = "";
+                    txtContraseña.PasswordChar = '*';
+                    txtContraseña.ForeColor = Color.Black;
+                    break;
+                case 2:
+                    txtContraseña.Text = "Contraseña";
+                    txtContraseña.PasswordChar = passwordchar;
+                    txtContraseña.ForeColor = Color.Silver;
+                    break;
+                case 3:
+                    txtSee.Visible = true;
+                    break;
+                case 4:
+                    txtSee.Visible = false;
+                    break;
+                case 5:
+                    txtSee.IconChar = FontAwesome.Sharp.IconChar.Eye;
+                    passwordEyeON = false;
+                    txtSee.Visible = false;
+                    break;
+                case 6:
+                    txtContraseña.PasswordChar = passwordchar;
+                    txtContraseña.ForeColor = Color.Black;
+                    break;
+                case 7:
+                    txtContraseña.PasswordChar = '*';
+                    txtContraseña.ForeColor = Color.Black;
+                    break;
+
+            }
+
+        }
+
+        //Eventos de FONTAWESOME
+        private void txtSee_MouseEnter(object sender, EventArgs e)
+        {
+            txtSee.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            
+        }
+
+        private void txtSee_MouseLeave(object sender, EventArgs e)
+        {          
+            txtSee.IconFont = FontAwesome.Sharp.IconFont.Regular;                      
+        }
+
+        private void txtSee_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtSee.IconChar == FontAwesome.Sharp.IconChar.Eye)
+            {
+                txtSee.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
+                passwordEyeON = true;
+                passwordCHAR(6);
+            }
+            else
+            {
+                if(txtSee.IconChar == FontAwesome.Sharp.IconChar.EyeSlash)
+                {
+                    txtSee.IconChar = FontAwesome.Sharp.IconChar.Eye;
+                    passwordEyeON = false;
+                    passwordCHAR(7);
+                }
+            }
+
+
         }
     }
 }
