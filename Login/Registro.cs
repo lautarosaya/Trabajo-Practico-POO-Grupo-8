@@ -86,7 +86,7 @@ namespace vista.Login
                     passwordCHAR(3);
                 }
             }
-            if(txtMail.Text != "Contraseña" && txtContraseña.ForeColor != Color.Silver)
+            if(txtContraseña.Text != "Contraseña" && txtContraseña.ForeColor != Color.Silver)
             {
                 if (COMUN.MetodosComunes.ValidacionPASSWORD(txtContraseña.Text))
                 {
@@ -221,8 +221,8 @@ namespace vista.Login
 
         private void btnLoginLO_Click(object sender, EventArgs e)
         {
+            
             Controladora.usuarios controladora = new Controladora.usuarios();
-
             //Envio de Mail, utilizando mail Corporativo de nuestra empresa//
             //Variables mail, nombre, apellido//
             bool Nombre = Revisar(txtNombre);
@@ -233,22 +233,45 @@ namespace vista.Login
 
             if (Nombre && Apellido && Usuario && Contraseña && Correo)
             {
-            string nombre = txtNombre.Text;
-            string apellido = txtApellido.Text;
-            string mail = txtMail.Text;
-            try
-            {
-                SmtpClient cliente = controladora.SmtpClient();
+                string nombre = txtNombre.Text;
+                string apellido = txtApellido.Text;
+                string mail = txtMail.Text;
+                string usuario = txtUsuario.Text;
+                Random r = new Random();
+                int codigoVER = r.Next(10000, 99999);               
+                CodigoConfirmacion formConfirmacion = new CodigoConfirmacion(codigoVER,usuario,mail);
+                try
+                {
+                    SmtpClient cliente = controladora.SmtpClient();
 
-                MailMessage correo = controladora.Mail_Registro(mail, nombre, apellido);
+                    MailMessage correo = controladora.MailVerificar(mail, nombre, apellido, codigoVER);
 
-                cliente.Send(correo);
-            }
-            catch (Exception ex)
-            {
-                DialogResult dialog = MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-              
-            }
+                    cliente.Send(correo);
+                }
+                catch (Exception ex)
+                {
+                    DialogResult dialog = MessageBox.Show(ex.Message, "Se produjo un error al enviar el código de verificación, por favor revisar si escribio bien su correo electronico.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+                formConfirmacion.ShowDialog();
+                //La función Confirmacion() sirve para saber si el usuario ingreso el codigo correcto
+                
+                if (formConfirmacion.Confirmacion())
+                {
+                    try
+                    {
+                        SmtpClient cliente = controladora.SmtpClient();
+
+                        MailMessage correo = controladora.Mail_Registro(mail, nombre, apellido, usuario);
+                        cliente.Send(correo);
+                        this.Close();
+                    }
+                    catch (Exception ex)
+                    {
+                        DialogResult dialog = MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    }
+                }
             }
             else
             {
@@ -359,6 +382,27 @@ namespace vista.Login
             return newlocation;
         }
 
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text != Usuariotxt && txtUsuario.ForeColor != Color.Silver)
+            {
+                if (COMUN.MetodosComunes.ValidacionPASSWORD(txtUsuario.Text))
+                {
+                    pctLineDecoration(pctUsuario, 1);
+                }
+                else
+                {
+                    pctLineDecoration(pctUsuario, 3);
+                }
+
+            }
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            MetodosComunes.KeyPressSoloLetras(e, "s");
+        }
+
         public bool Revisar(TextBox a)
         {
             //Aquí para automatizar el programa, utilizamos los TabsIndex de nuestro TextBox//
@@ -394,6 +438,11 @@ namespace vista.Login
                         {                      
                             return true;
                         }
+                        else
+                        {
+                            pctLineDecoration(pctUsuario, 3);
+                            return false;
+                        }
                     }
                     else
                     {
@@ -407,6 +456,11 @@ namespace vista.Login
                         if (COMUN.MetodosComunes.ValidacionPASSWORD(a.Text))
                         {
                             return true;
+                        }
+                        else
+                        {
+                            pctLineDecoration(pctContraseña, 3);
+                            return false;
                         }
                     }
                     else
@@ -422,6 +476,11 @@ namespace vista.Login
                         if (COMUN.MetodosComunes.ValidacionEMAIL(v,a.Text))
                         {
                         return true;
+                        }
+                        else
+                        {
+                            pctLineDecoration(pctCorreo, 3);
+                            return false;
                         }
                     }
                     else
@@ -439,5 +498,18 @@ namespace vista.Login
         }
     }
 }
+/*
+try
+{
+    SmtpClient cliente = controladora.SmtpClient();
 
-            
+    MailMessage correo = controladora.Mail_Registro(mail, nombre, apellido);
+
+    cliente.Send(correo);
+}
+catch (Exception ex)
+{
+    DialogResult dialog = MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+}
+*/

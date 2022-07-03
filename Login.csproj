@@ -82,6 +82,12 @@
     <Compile Include="Cliente\Factura.Designer.cs">
       <DependentUpon>Factura.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login\CodigoConfirmacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\CodigoConfirmacion.Designer.cs">
+      <DependentUpon>CodigoConfirmacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cliente\Factura.resx">
       <DependentUpon>Factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\CodigoConfirmacion.resx">
+      <DependentUpon>CodigoConfirmacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

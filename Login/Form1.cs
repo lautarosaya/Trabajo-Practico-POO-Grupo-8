@@ -19,7 +19,6 @@ namespace vista
             InitializeComponent();
         }
         //Variables//
-        int passwordText;
         bool passwordEyeON = false;
         string Usuariotxt = "Nombre de usuario";
         char passwordchar;

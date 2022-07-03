@@ -20,14 +20,29 @@ namespace Controladora
             return -1;
         }
 
-        public MailMessage Mail_Registro(string usuario_mail, string usuario_nombre, string usuario_apellido)
+        public MailMessage MailVerificar(string usuario_mail, string usuario_nombre, string usuario_apellido,int codigoazar)
         {
             MailMessage correo = new MailMessage();
 
             correo.To.Add(usuario_mail);
             correo.Subject = "Registro completo con exito";
             correo.SubjectEncoding = Encoding.UTF8;
-            correo.Body = "Usted, " + usuario_nombre + " " + usuario_apellido + ", se registro exitosamente en la plataforma";
+            correo.Body = "<h2 style='color:#6bf286'>Sanchez Automotores\n</h2>" + "<h1>Sistema de confirmación de correo electronico</h1>\n\n\n" + "<p><b>Su código de verificación es: </b></p>" + codigoazar.ToString() + "<p>\nSí no reconoce está actividad, por favor ignorela.\nGracias.</p>";
+            correo.BodyEncoding = Encoding.UTF8;
+            correo.IsBodyHtml = true;
+            correo.From = new MailAddress("sanchezautomotoroficial@outlook.com");
+
+            return correo;
+        }
+
+        public MailMessage Mail_Registro(string usuario_mail, string usuario_nombre, string usuario_apellido, string usuario)
+        {
+            MailMessage correo = new MailMessage();
+
+            correo.To.Add(usuario_mail);
+            correo.Subject = "Registro completo con exito";
+            correo.SubjectEncoding = Encoding.UTF8;
+            correo.Body = "<h2 style='color:#6bf286'>Sanchez Automotores\n</h2>" + "<h1>¡Su registro fue exitoso!</h1>" + "<p><b>Muchas gracias por confiar en nosotros  </b></p>" + usuario_nombre + " " + usuario_apellido + ", su nombre de usuario es: " + usuario;
             correo.BodyEncoding = Encoding.UTF8;
             correo.IsBodyHtml = true;
             correo.From = new MailAddress("sanchezautomotoroficial@outlook.com");

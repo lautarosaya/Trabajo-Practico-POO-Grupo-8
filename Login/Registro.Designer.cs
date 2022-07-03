@@ -142,6 +142,7 @@
             this.txtUsuario.Size = new System.Drawing.Size(201, 22);
             this.txtUsuario.TabIndex = 2;
             this.txtUsuario.Text = "Nombre de Usuario";
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
@@ -157,6 +158,7 @@
             this.txtNombre.TabIndex = 0;
             this.txtNombre.Text = "Nombre";
             this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // pctNombre
@@ -229,6 +231,7 @@
             this.txtApellido.TabIndex = 1;
             this.txtApellido.Text = "Apellido";
             this.txtApellido.Enter += new System.EventHandler(this.txtApellido_Enter);
+            this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             this.txtApellido.Leave += new System.EventHandler(this.txtApellido_Leave);
             // 
             // pctApellido
