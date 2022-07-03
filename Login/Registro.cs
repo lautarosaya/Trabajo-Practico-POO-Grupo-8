@@ -9,16 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Net.Mail;
+using COMUN;
 
 namespace vista.Login
 {
     public partial class Registro : Form
     {
-        public Registro()
+        public Registro(Point a)
         {
             InitializeComponent();
+            location = a;
         }
+        Point location,newlocation;
         char passwordchar;
+        bool passwordEyeON = false;
+        EventArgs v;
         //varText//
         string Nombretxt = "Nombre";
         string Apellidotxt = "Apellido";
@@ -52,20 +57,68 @@ namespace vista.Login
         {
             if (txtContraseña.Text == "Contraseña")
             {
-                txtContraseña.Text = "";
-                txtContraseña.PasswordChar = '*';
-                txtContraseña.ForeColor = Color.Black;
+                passwordCHAR(1);
             }
+            if (txtContraseña.Text != String.Empty && passwordEyeON == false)
+            {
+                passwordCHAR(3);
+                passwordCHAR(7);
+            }
+            if (txtContraseña.Text != String.Empty && passwordEyeON == true)
+            {
+                passwordCHAR(3);
+                passwordCHAR(6);
+            }
+
             pctLineDecoration(pctContraseña, 1);
+        }
+
+        private void txtContraseña_TextChanged(object sender, EventArgs e)
+        {
+            if (txtContraseña.Text != String.Empty)
+            {
+                if (txtContraseña.ForeColor == Color.Silver)
+                {
+                    passwordCHAR(4);
+                }
+                else
+                {
+                    passwordCHAR(3);
+                }
+            }
+            if(txtMail.Text != "Contraseña" && txtContraseña.ForeColor != Color.Silver)
+            {
+                if (COMUN.MetodosComunes.ValidacionPASSWORD(txtContraseña.Text))
+                {
+                    pctLineDecoration(pctContraseña, 1);
+                }
+                else
+                {
+                    pctLineDecoration(pctContraseña, 3);
+                }
+
+            }
+
         }
 
         private void txtContraseña_Leave(object sender, EventArgs e)
         {
             if (txtContraseña.Text == "")
             {
-                txtContraseña.Text = "Contraseña";
-                txtContraseña.PasswordChar = passwordchar;
-                txtContraseña.ForeColor = Color.Silver;
+                passwordCHAR(2);
+            }
+
+            if (txtContraseña.Text != String.Empty && passwordEyeON == true)
+            {
+                passwordCHAR(3);
+            }
+            if (passwordEyeON == true && txtContraseña.Text == "Contraseña")
+            {
+                passwordCHAR(5);
+            }
+            if (passwordEyeON == false && txtContraseña.Text == "Contraseña")
+            {
+                passwordCHAR(4);
             }
             pctLineDecoration(pctContraseña, 2);
         }
@@ -150,7 +203,11 @@ namespace vista.Login
                     a.Size = new Size(j, 23);
                     a.BackColor = pctOff;
                     break;
-
+                case 3:
+                    int k = a.Size.Width;
+                    a.Size = new Size(k, 24);
+                    a.BackColor = Color.Red;
+                    break;
                 default:
                     MessageBox.Show("Error");
                     break;
@@ -167,8 +224,15 @@ namespace vista.Login
             Controladora.usuarios controladora = new Controladora.usuarios();
 
             //Envio de Mail, utilizando mail Corporativo de nuestra empresa//
-
             //Variables mail, nombre, apellido//
+            bool Nombre = Revisar(txtNombre);
+            bool Apellido = Revisar(txtApellido);
+            bool Usuario = Revisar(txtUsuario);
+            bool Contraseña = Revisar(txtContraseña);
+            bool Correo = Revisar(txtMail);
+
+            if (Nombre && Apellido && Usuario && Contraseña && Correo)
+            {
             string nombre = txtNombre.Text;
             string apellido = txtApellido.Text;
             string mail = txtMail.Text;
@@ -185,8 +249,193 @@ namespace vista.Login
                 DialogResult dialog = MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
               
             }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, corregir los errores", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
 
+            
+        }
+        public void passwordCHAR(int caso)
+        {
 
+            switch (caso)
+            {
+                case 1:
+                    txtContraseña.Text = "";
+                    txtContraseña.PasswordChar = '*';
+                    txtContraseña.ForeColor = Color.Black;
+
+                    break;
+                case 2:
+                    txtContraseña.Text = "Contraseña";
+                    txtContraseña.PasswordChar = passwordchar;
+                    txtContraseña.ForeColor = Color.Silver;
+
+                    break;
+                case 3:
+                    txtSee.Visible = true;
+                    break;
+                case 4:
+                    txtSee.Visible = false;
+                    break;
+                case 5:
+                    txtSee.IconChar = FontAwesome.Sharp.IconChar.Eye;
+                    passwordEyeON = false;
+                    txtSee.Visible = false;
+                    break;
+                case 6:
+                    txtContraseña.PasswordChar = passwordchar;
+                    txtContraseña.ForeColor = Color.Black;
+                    break;
+                case 7:
+                    txtContraseña.PasswordChar = '*';
+                    txtContraseña.ForeColor = Color.Black;
+                    break;
+
+            }
+
+        }
+
+        private void txtSee_MouseEnter(object sender, EventArgs e)
+        {
+            txtSee.IconFont = FontAwesome.Sharp.IconFont.Solid;
+        }
+
+        private void txtSee_MouseLeave(object sender, EventArgs e)
+        {
+            txtSee.IconFont = FontAwesome.Sharp.IconFont.Regular;
+        }
+
+        private void txtSee_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtSee.IconChar == FontAwesome.Sharp.IconChar.Eye)
+            {
+                txtSee.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
+                passwordEyeON = true;
+                passwordCHAR(6);
+            }
+            else
+            {
+                if (txtSee.IconChar == FontAwesome.Sharp.IconChar.EyeSlash)
+                {
+                    txtSee.IconChar = FontAwesome.Sharp.IconChar.Eye;
+                    passwordEyeON = false;
+                    passwordCHAR(7);
+                }
+            }
+        }
+
+        private void Registro_Load(object sender, EventArgs e)
+        {
+            txtSee.Visible = false;
+            this.Location = location;
+        }
+
+        private void Registro_LocationChanged(object sender, EventArgs e)
+        {
+            newlocation = this.Location;
+        }
+
+        private void txtMail_TextChanged(object sender, EventArgs e)
+        {
+            v = e;
+            if(txtMail.Text != Correotxt && txtMail.ForeColor != Color.Silver)
+            {
+                if (COMUN.MetodosComunes.ValidacionEMAIL(e, txtMail.Text))
+                {
+                    pctLineDecoration(pctCorreo, 1);
+                }
+                else
+                {
+                    pctLineDecoration(pctCorreo, 3);
+                }
+            }
+        }
+
+        public Point locationchanged()
+        {
+            return newlocation;
+        }
+
+        public bool Revisar(TextBox a)
+        {
+            //Aquí para automatizar el programa, utilizamos los TabsIndex de nuestro TextBox//
+             //Entonces esto nos permite identificar cada TextBox//
+            switch (a.TabIndex)
+            {
+                case 0:
+                    if(a.Text != Nombretxt && a.ForeColor != Color.Silver)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        pctLineDecoration(pctNombre, 3);
+                        return false;
+                    }
+                    break;
+                case 1:
+                    if (a.Text != Apellidotxt && a.ForeColor != Color.Silver)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        pctLineDecoration(pctApellido, 3);
+                        return false;
+                    }
+                    break;
+                case 2:
+                    if (a.Text != Usuariotxt && a.ForeColor != Color.Silver)
+                    {
+                        if (COMUN.MetodosComunes.ValidacionPASSWORD(a.Text))
+                        {                      
+                            return true;
+                        }
+                    }
+                    else
+                    {
+                        pctLineDecoration(pctUsuario, 3);
+                        return false;
+                    }
+                    break;
+                case 3:
+                    if (a.Text != "Contraseña" && a.ForeColor != Color.Silver)
+                    {
+                        if (COMUN.MetodosComunes.ValidacionPASSWORD(a.Text))
+                        {
+                            return true;
+                        }
+                    }
+                    else
+                    {
+                        pctLineDecoration(pctContraseña, 3);
+                        return false;
+                    }
+                    break;
+                case 4:
+                    if (a.Text != Correotxt && a.ForeColor != Color.Silver)
+                    {
+                        
+                        if (COMUN.MetodosComunes.ValidacionEMAIL(v,a.Text))
+                        {
+                        return true;
+                        }
+                    }
+                    else
+                    {
+                        pctLineDecoration(pctCorreo, 3);
+                        return false;
+                    }
+                    break;
+                default:
+                    MessageBox.Show("Error");
+                    return false;
+                    break;
+            }
+            return false;
         }
     }
 }

@@ -30,7 +30,7 @@ namespace vista
         Color pctOn = Color.FromArgb(65, 168, 95);
         Color pctOff = Color.DarkGray;
         
-        //DRAG MOVE, Mover formulario con panel//
+        //DRAG MOVE, Mover formulario con panel// //Código Descarte, por la dudas se guarda para futuras actualizaciones//
         public const int WM_NCLBUTTONDOWN = 0xA1;
 
         public const int HTCAPTION = 0x2;
@@ -63,7 +63,7 @@ namespace vista
             btnLoginLO.FlatAppearance.MouseOverBackColor = greenHoover;
             btnIniciar.FlatAppearance.MouseOverBackColor = greenHoover;
             btnRegistrarLO.FlatAppearance.MouseOverBackColor = grisHoover;
-            txtSee.Visible = false;
+            txtSee.Visible = false;            
         }
 
         private void txtUsuario_Enter(object sender, EventArgs e)
@@ -95,6 +95,7 @@ namespace vista
                 passwordCHAR(3);
                 passwordCHAR(6);
             }
+            pctLineDecoration(pctPassword, 1);
 
         }
 
@@ -102,7 +103,15 @@ namespace vista
         {
             if (txtContraseña.Text != String.Empty)
             {
-                passwordCHAR(3);
+                if(txtContraseña.ForeColor == Color.Silver)
+                {
+                    passwordCHAR(4);
+                }
+                else
+                {
+                    passwordCHAR(3);
+                }
+                
             }
         }
 
@@ -122,7 +131,11 @@ namespace vista
             {
                 passwordCHAR(5);
             }
-
+            if (passwordEyeON == false && txtContraseña.Text == "Contraseña")
+            {
+                passwordCHAR(4);
+            }
+            pctLineDecoration(pctPassword, 2);
         }
 
         private void btnRegistrarRE_Click(object sender, EventArgs e)
@@ -150,9 +163,10 @@ namespace vista
 
         private void btnRegistrarLO_Click(object sender, EventArgs e)
         {
-            vista.Login.Registro registroFORM = new vista.Login.Registro();
+            vista.Login.Registro registroFORM = new vista.Login.Registro(this.Location);
             this.Hide();
             registroFORM.ShowDialog();
+            this.Location = registroFORM.locationchanged();
             //El programa se cerrará cuando el usuario cierre el formulario Registro//
             this.Show();
                                  
@@ -201,6 +215,7 @@ namespace vista
                     {
                         a.Text = "";
                         a.ForeColor = Color.Black;
+                        
                     }
                     break;
 
@@ -209,6 +224,7 @@ namespace vista
                     {
                         a.Text = varText;
                         a.ForeColor = Color.Silver;
+                        
                     }
                     break;
 
@@ -227,11 +243,13 @@ namespace vista
                     txtContraseña.Text = "";
                     txtContraseña.PasswordChar = '*';
                     txtContraseña.ForeColor = Color.Black;
+                    
                     break;
                 case 2:
                     txtContraseña.Text = "Contraseña";
                     txtContraseña.PasswordChar = passwordchar;
                     txtContraseña.ForeColor = Color.Silver;
+                    
                     break;
                 case 3:
                     txtSee.Visible = true;

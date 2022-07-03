@@ -30,8 +30,9 @@
         {
             this.pnlLogin = new System.Windows.Forms.Panel();
             this.pnl1 = new System.Windows.Forms.Panel();
+            this.txtSee = new FontAwesome.Sharp.IconButton();
             this.lblBienvenido = new System.Windows.Forms.Label();
-            this.btnLoginLO = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.pctNombre = new System.Windows.Forms.PictureBox();
@@ -67,8 +68,9 @@
             // 
             // pnl1
             // 
+            this.pnl1.Controls.Add(this.txtSee);
             this.pnl1.Controls.Add(this.lblBienvenido);
-            this.pnl1.Controls.Add(this.btnLoginLO);
+            this.pnl1.Controls.Add(this.btnRegistrar);
             this.pnl1.Controls.Add(this.txtUsuario);
             this.pnl1.Controls.Add(this.txtNombre);
             this.pnl1.Controls.Add(this.pctNombre);
@@ -84,6 +86,25 @@
             this.pnl1.Size = new System.Drawing.Size(442, 265);
             this.pnl1.TabIndex = 7;
             // 
+            // txtSee
+            // 
+            this.txtSee.BackColor = System.Drawing.Color.Transparent;
+            this.txtSee.FlatAppearance.BorderSize = 0;
+            this.txtSee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtSee.IconChar = FontAwesome.Sharp.IconChar.Eye;
+            this.txtSee.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(137)))));
+            this.txtSee.IconFont = FontAwesome.Sharp.IconFont.Regular;
+            this.txtSee.IconSize = 33;
+            this.txtSee.Location = new System.Drawing.Point(415, 120);
+            this.txtSee.Name = "txtSee";
+            this.txtSee.Size = new System.Drawing.Size(24, 22);
+            this.txtSee.TabIndex = 8;
+            this.txtSee.Tag = "Contraseña";
+            this.txtSee.UseVisualStyleBackColor = false;
+            this.txtSee.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtSee_MouseClick);
+            this.txtSee.MouseEnter += new System.EventHandler(this.txtSee_MouseEnter);
+            this.txtSee.MouseLeave += new System.EventHandler(this.txtSee_MouseLeave);
+            // 
             // lblBienvenido
             // 
             this.lblBienvenido.AutoSize = true;
@@ -94,21 +115,21 @@
             this.lblBienvenido.TabIndex = 4;
             this.lblBienvenido.Text = "Registrarse";
             // 
-            // btnLoginLO
+            // btnRegistrar
             // 
-            this.btnLoginLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.btnLoginLO.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.btnLoginLO.FlatAppearance.BorderSize = 0;
-            this.btnLoginLO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoginLO.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoginLO.ForeColor = System.Drawing.Color.White;
-            this.btnLoginLO.Location = new System.Drawing.Point(65, 208);
-            this.btnLoginLO.Name = "btnLoginLO";
-            this.btnLoginLO.Size = new System.Drawing.Size(312, 48);
-            this.btnLoginLO.TabIndex = 5;
-            this.btnLoginLO.Text = "Registrarse";
-            this.btnLoginLO.UseVisualStyleBackColor = false;
-            this.btnLoginLO.Click += new System.EventHandler(this.btnLoginLO_Click);
+            this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnRegistrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnRegistrar.FlatAppearance.BorderSize = 0;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrar.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.ForeColor = System.Drawing.Color.White;
+            this.btnRegistrar.Location = new System.Drawing.Point(65, 208);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(312, 48);
+            this.btnRegistrar.TabIndex = 5;
+            this.btnRegistrar.Text = "Registrarse";
+            this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnLoginLO_Click);
             // 
             // txtUsuario
             // 
@@ -167,6 +188,7 @@
             this.txtMail.Size = new System.Drawing.Size(344, 22);
             this.txtMail.TabIndex = 4;
             this.txtMail.Text = "Correo Electronico";
+            this.txtMail.TextChanged += new System.EventHandler(this.txtMail_TextChanged);
             this.txtMail.Enter += new System.EventHandler(this.txtMail_Enter);
             this.txtMail.Leave += new System.EventHandler(this.txtMail_Leave);
             // 
@@ -189,7 +211,9 @@
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(201, 22);
             this.txtContraseña.TabIndex = 3;
+            this.txtContraseña.Tag = "Contraseña";
             this.txtContraseña.Text = "Contraseña";
+            this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
             this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
             // 
@@ -267,6 +291,8 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
+            this.Load += new System.EventHandler(this.Registro_Load);
+            this.LocationChanged += new System.EventHandler(this.Registro_LocationChanged);
             this.pnlLogin.ResumeLayout(false);
             this.pnl1.ResumeLayout(false);
             this.pnl1.PerformLayout();
@@ -285,7 +311,7 @@
         private System.Windows.Forms.Label lblBienvenido;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtContraseña;
-        private System.Windows.Forms.Button btnLoginLO;
+        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.Panel pnl1;
@@ -296,5 +322,6 @@
         private System.Windows.Forms.PictureBox pctUsuario;
         private System.Windows.Forms.TextBox txtMail;
         private System.Windows.Forms.PictureBox pctCorreo;
+        private FontAwesome.Sharp.IconButton txtSee;
     }
 }
