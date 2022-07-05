@@ -17,11 +17,6 @@ namespace vista
             InitializeComponent();
         }
 
-        private void Interfaz_Administrador_Load(object sender, EventArgs e)
-        {
-            comboBox1.Items.Add("");
-        }
-
         private void Add_Vehicle_Click(object sender, EventArgs e)
         {
 
