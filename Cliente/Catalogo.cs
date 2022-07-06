@@ -15,23 +15,110 @@ namespace vista.Cliente
         public Catalogo()
         {
             InitializeComponent();
+            personalizadaBarra();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void personalizadaBarra()
         {
-
+            panelAudi.Visible = false;
+            panelBmw.Visible = false;
+            panelFord.Visible = false;
+            panelMercedes.Visible = false;
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void ocultarSubmenu()
         {
-
+            if (panelAudi.Visible == true)
+            {
+                panelAudi.Visible = false;
+            }
+            if (panelBmw.Visible == true)
+            {
+                panelBmw.Visible = false;
+            }
+            if(panelFord.Visible == true)
+            {
+                panelFord.Visible = false;
+            }
+            if(panelMercedes.Visible == true)
+            {
+                panelMercedes.Visible = false;
+            }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ocultarFoto()
         {
-
+            if(pictureFord.Visible == true)
+            {
+                pictureFord.Visible = false;
+            }
+            if(pictureAudi.Visible == true)
+            {
+                pictureAudi.Visible = false;
+            }
+            if(pictureBmw.Visible == true)
+            {
+                pictureBmw.Visible = false;
+            }
+            if (pictureMercedes.Visible == true)
+            {
+                pictureMercedes.Visible = false;
+            }
         }
 
-        
+        private void mostrarSubmenu(Panel subMenu)
+        {
+            if(subMenu.Visible == false)
+            {
+                ocultarSubmenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
+        }
+
+        private void mostrarFoto(PictureBox MostrarFoto)
+        {
+            if (MostrarFoto.Visible == false)
+            {
+                ocultarFoto();
+                MostrarFoto.Visible = true;
+            }
+            else
+                MostrarFoto.Visible = false;
+        }
+
+
+        private void btnAudi_Click(object sender, EventArgs e)
+        {
+            mostrarSubmenu(panelAudi);
+            mostrarFoto(pictureAudi);
+        }
+
+        private void btnBmw_Click(object sender, EventArgs e)
+        {
+            mostrarSubmenu(panelBmw);
+            mostrarFoto(pictureBmw);
+        }
+
+        private void btnMercedes_Click(object sender, EventArgs e)
+        {
+            mostrarSubmenu(panelMercedes);
+            mostrarFoto(pictureMercedes);
+        }
+
+        private void btnFord_Click(object sender, EventArgs e)
+        {
+            mostrarSubmenu(panelFord);
+            mostrarFoto(pictureFord);
+        }
+
+        private void Catalogo_Load(object sender, EventArgs e)
+        {
+            pictureFord.Visible=false;
+            pictureAudi.Visible=false;
+            pictureBmw.Visible=false;
+            pictureMercedes.Visible=false;
+        }
     }
 }
