@@ -33,11 +33,11 @@
             this.btnRegistrarLO = new System.Windows.Forms.Button();
             this.lblBienvenido = new System.Windows.Forms.Label();
             this.btnLoginLO = new System.Windows.Forms.Button();
-            this.btnIniciar = new System.Windows.Forms.Button();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.pctPassword = new System.Windows.Forms.PictureBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.pctUsuario = new System.Windows.Forms.PictureBox();
+            this.btnIniciar = new System.Windows.Forms.Button();
             this.pnlLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctUsuario)).BeginInit();
@@ -123,20 +123,6 @@
             this.btnLoginLO.UseVisualStyleBackColor = false;
             this.btnLoginLO.Click += new System.EventHandler(this.btnLoginLO_Click);
             // 
-            // btnIniciar
-            // 
-            this.btnIniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.btnIniciar.FlatAppearance.BorderSize = 0;
-            this.btnIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIniciar.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnIniciar.Location = new System.Drawing.Point(202, 12);
-            this.btnIniciar.Name = "btnIniciar";
-            this.btnIniciar.Size = new System.Drawing.Size(197, 48);
-            this.btnIniciar.TabIndex = 5;
-            this.btnIniciar.Text = "Iniciar Sesión";
-            this.btnIniciar.UseVisualStyleBackColor = false;
-            // 
             // txtContraseña
             // 
             this.txtContraseña.BackColor = System.Drawing.Color.White;
@@ -186,6 +172,20 @@
             this.pctUsuario.TabIndex = 6;
             this.pctUsuario.TabStop = false;
             // 
+            // btnIniciar
+            // 
+            this.btnIniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btnIniciar.FlatAppearance.BorderSize = 0;
+            this.btnIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIniciar.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnIniciar.Location = new System.Drawing.Point(202, 12);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(197, 48);
+            this.btnIniciar.TabIndex = 5;
+            this.btnIniciar.Text = "Iniciar Sesión";
+            this.btnIniciar.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,10 +216,10 @@
         private System.Windows.Forms.Button btnLoginLO;
         private System.Windows.Forms.Button btnRegistrarLO;
         private System.Windows.Forms.Label lblBienvenido;
-        private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.PictureBox pctUsuario;
         private System.Windows.Forms.PictureBox pctPassword;
         private FontAwesome.Sharp.IconButton txtSee;
+        private System.Windows.Forms.Button btnIniciar;
     }
 }
 

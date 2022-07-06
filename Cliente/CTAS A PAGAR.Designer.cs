@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.nrofactura = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.monto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Vencimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -47,6 +47,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(500, 331);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(17, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(645, 108);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Javi Peronista";
             // 
             // dataGridView1
             // 
@@ -81,16 +91,6 @@
             // 
             this.Vencimiento.HeaderText = "Vencimiento";
             this.Vencimiento.Name = "Vencimiento";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(438, 108);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Javi Puto";
             // 
             // Cuenta_A_pAGAR
             // 
