@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace vista
+namespace vista.Admin
 {
-    public partial class Interfaz_Empleados : Form
+    public partial class Vehiculo_Agregar : Form
     {
-        public Interfaz_Empleados()
+        public Vehiculo_Agregar()
         {
             InitializeComponent();
         }
