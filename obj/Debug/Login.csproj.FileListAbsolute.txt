@@ -117,3 +117,7 @@ C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.Cor
 C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.CopyComplete
 C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.exe
 C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.pdb
+C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Modelos_Autos._330i.resources
+C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Modelos_Autos.allroad.resources
+C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Modelos_Autos.c200.resources
+C:\Users\Lautaro\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Modelos_Autos.focus.resources

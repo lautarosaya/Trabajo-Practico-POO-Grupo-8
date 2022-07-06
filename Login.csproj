@@ -82,6 +82,30 @@
     <Compile Include="Cliente\Factura.Designer.cs">
       <DependentUpon>Factura.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cliente\Autos\330i.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\Autos\330i.Designer.cs">
+      <DependentUpon>330i.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Autos\allroad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\Autos\allroad.Designer.cs">
+      <DependentUpon>allroad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Autos\c200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\Autos\c200.Designer.cs">
+      <DependentUpon>c200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente\Autos\focus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente\Autos\focus.Designer.cs">
+      <DependentUpon>focus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login\CodigoConfirmacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +152,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cliente\Factura.resx">
       <DependentUpon>Factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\Autos\330i.resx">
+      <DependentUpon>330i.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\Autos\allroad.resx">
+      <DependentUpon>allroad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\Autos\c200.resx">
+      <DependentUpon>c200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente\Autos\focus.resx">
+      <DependentUpon>focus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\CodigoConfirmacion.resx">
       <DependentUpon>CodigoConfirmacion.cs</DependentUpon>

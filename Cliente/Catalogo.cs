@@ -46,25 +46,7 @@ namespace vista.Cliente
             }
         }
 
-        private void ocultarFoto()
-        {
-            if(pictureFord.Visible == true)
-            {
-                pictureFord.Visible = false;
-            }
-            if(pictureAudi.Visible == true)
-            {
-                pictureAudi.Visible = false;
-            }
-            if(pictureBmw.Visible == true)
-            {
-                pictureBmw.Visible = false;
-            }
-            if (pictureMercedes.Visible == true)
-            {
-                pictureMercedes.Visible = false;
-            }
-        }
+       
 
         private void mostrarSubmenu(Panel subMenu)
         {
@@ -81,7 +63,7 @@ namespace vista.Cliente
         {
             if (MostrarFoto.Visible == false)
             {
-                ocultarFoto();
+                
                 MostrarFoto.Visible = true;
             }
             else
@@ -92,33 +74,69 @@ namespace vista.Cliente
         private void btnAudi_Click(object sender, EventArgs e)
         {
             mostrarSubmenu(panelAudi);
-            mostrarFoto(pictureAudi);
         }
 
         private void btnBmw_Click(object sender, EventArgs e)
         {
             mostrarSubmenu(panelBmw);
-            mostrarFoto(pictureBmw);
+            
+           
         }
 
         private void btnMercedes_Click(object sender, EventArgs e)
         {
             mostrarSubmenu(panelMercedes);
-            mostrarFoto(pictureMercedes);
+            
+            
         }
 
         private void btnFord_Click(object sender, EventArgs e)
         {
             mostrarSubmenu(panelFord);
-            mostrarFoto(pictureFord);
+            
         }
 
-        private void Catalogo_Load(object sender, EventArgs e)
+        private void abrirFormHijo(object formhijo)
         {
-            pictureFord.Visible=false;
-            pictureAudi.Visible=false;
-            pictureBmw.Visible=false;
-            pictureMercedes.Visible=false;
+            if(this.panelHijo.Controls.Count > 0)
+            {
+                this.panelHijo.Controls.RemoveAt(0);
+            }
+            Form fh = formhijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelHijo.Controls.Add(fh);
+            this.panelHijo.Tag = fh;
+            fh.Show();
+        }
+        
+
+        private void btnAllroad_Click(object sender, EventArgs e)
+        {
+            abrirFormHijo(new Modelos_Autos.allroad());
+            
+            
+        }
+
+        private void btn330i_Click(object sender, EventArgs e)
+        {
+            abrirFormHijo(new Modelos_Autos._330i());
+           
+
+        }
+
+        private void btnC200_Click(object sender, EventArgs e)
+        {
+            abrirFormHijo(new Modelos_Autos.c200());
+           
+
+        }
+
+        private void btnFocus_Click(object sender, EventArgs e)
+        {
+            abrirFormHijo(new Modelos_Autos.focus());
+           
+
         }
     }
 }
