@@ -16,5 +16,19 @@ namespace vista.Admin
         {
             InitializeComponent();
         }
+
+        private void Boton_Cerrar_Sesion_Click(object sender, EventArgs e)
+        {
+            Form1 log = new Form1();
+            this.Hide();
+            log.ShowDialog();
+        }
+
+        private void button1_Des_Click(object sender, EventArgs e)
+        {
+            vista.Interfaz_Administrador admin = new vista.Interfaz_Administrador();
+            this.Hide();
+            admin.ShowDialog();
+        }
     }
 }

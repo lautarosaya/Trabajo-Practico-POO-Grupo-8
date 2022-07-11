@@ -76,53 +76,53 @@
     <Compile Include="Admin\Empleado_Despedir.Designer.cs">
       <DependentUpon>Empleado_Despedir.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Interfaz-Cliente.cs">
+    <Compile Include="Admin\Interfaz_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Interfaz-Cliente.Designer.cs">
-      <DependentUpon>Interfaz-Cliente.cs</DependentUpon>
+    <Compile Include="Admin\Interfaz_Cliente.Designer.cs">
+      <DependentUpon>Interfaz_Cliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Interfaz-Encargado.cs">
+    <Compile Include="Admin\Interfaz_Encargado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Interfaz-Encargado.Designer.cs">
-      <DependentUpon>Interfaz-Encargado.cs</DependentUpon>
+    <Compile Include="Admin\Interfaz_Encargado.Designer.cs">
+      <DependentUpon>Interfaz_Encargado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Modificar-personal_info.cs">
+    <Compile Include="Admin\Modificar_info_Empleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Modificar-personal_info.Designer.cs">
-      <DependentUpon>Modificar-personal_info.cs</DependentUpon>
+    <Compile Include="Admin\Modificar_info_Empleado.Designer.cs">
+      <DependentUpon>Modificar_info_Empleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Modificar-personal_permiso.cs">
+    <Compile Include="Admin\Modificar_permiso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Modificar-personal_permiso.Designer.cs">
-      <DependentUpon>Modificar-personal_permiso.cs</DependentUpon>
+    <Compile Include="Admin\Modificar_permiso.Designer.cs">
+      <DependentUpon>Modificar_permiso.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Vehiculo-Comprar.cs">
+    <Compile Include="Admin\Vehiculo_Comprar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Vehiculo-Comprar.Designer.cs">
-      <DependentUpon>Vehiculo-Comprar.cs</DependentUpon>
+    <Compile Include="Admin\Vehiculo_Comprar.Designer.cs">
+      <DependentUpon>Vehiculo_Comprar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Vehiculo-Agregar.cs">
+    <Compile Include="Admin\Vehiculo_Agregar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Vehiculo-Agregar.Designer.cs">
-      <DependentUpon>Vehiculo-Agregar.cs</DependentUpon>
+    <Compile Include="Admin\Vehiculo_Agregar.Designer.cs">
+      <DependentUpon>Vehiculo_Agregar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Vehiculo-Remover.cs">
+    <Compile Include="Admin\Vehiculo_Remover.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Vehiculo-Remover.Designer.cs">
-      <DependentUpon>Vehiculo-Remover.cs</DependentUpon>
+    <Compile Include="Admin\Vehiculo_Remover.Designer.cs">
+      <DependentUpon>Vehiculo_Remover.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Vehículo_Vender.cs">
+    <Compile Include="Admin\Vehiculo_Vender.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Vehículo_Vender.Designer.cs">
-      <DependentUpon>Vehículo_Vender.cs</DependentUpon>
+    <Compile Include="Admin\Vehiculo_Vender.Designer.cs">
+      <DependentUpon>Vehiculo_Vender.cs</DependentUpon>
     </Compile>
     <Compile Include="Cliente\Catalogo.cs">
       <SubType>Form</SubType>
@@ -154,11 +154,11 @@
     <Compile Include="Login\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Interfaz-Administrador.cs">
+    <Compile Include="Admin\Interfaz_Administrador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\Interfaz-Administrador.Designer.cs">
-      <DependentUpon>Interfaz-Administrador.cs</DependentUpon>
+    <Compile Include="Admin\Interfaz_Administrador.Designer.cs">
+      <DependentUpon>Interfaz_Administrador.cs</DependentUpon>
     </Compile>
     <Compile Include="Cliente\Interfaz-Cliente.cs">
       <SubType>Form</SubType>
@@ -180,29 +180,29 @@
     <EmbeddedResource Include="Admin\Empleado_Despedir.resx">
       <DependentUpon>Empleado_Despedir.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Interfaz-Cliente.resx">
-      <DependentUpon>Interfaz-Cliente.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Interfaz_Cliente.resx">
+      <DependentUpon>Interfaz_Cliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Interfaz-Encargado.resx">
-      <DependentUpon>Interfaz-Encargado.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Interfaz_Encargado.resx">
+      <DependentUpon>Interfaz_Encargado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Modificar-personal_info.resx">
-      <DependentUpon>Modificar-personal_info.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Modificar_info_Empleado.resx">
+      <DependentUpon>Modificar_info_Empleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Modificar-personal_permiso.resx">
-      <DependentUpon>Modificar-personal_permiso.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Modificar_permiso.resx">
+      <DependentUpon>Modificar_permiso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Vehiculo-Agregar.resx">
-      <DependentUpon>Vehiculo-Agregar.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Vehiculo_Agregar.resx">
+      <DependentUpon>Vehiculo_Agregar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Vehiculo-Comprar.resx">
-      <DependentUpon>Vehiculo-Comprar.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Vehiculo_Comprar.resx">
+      <DependentUpon>Vehiculo_Comprar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Vehiculo-Remover.resx">
-      <DependentUpon>Vehiculo-Remover.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Vehiculo_Remover.resx">
+      <DependentUpon>Vehiculo_Remover.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Vehículo_Vender.resx">
-      <DependentUpon>Vehículo_Vender.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Vehiculo_Vender.resx">
+      <DependentUpon>Vehiculo_Vender.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cliente\Catalogo.resx">
       <DependentUpon>Catalogo.cs</DependentUpon>
@@ -219,8 +219,8 @@
     <EmbeddedResource Include="Login\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\Interfaz-Administrador.resx">
-      <DependentUpon>Interfaz-Administrador.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\Interfaz_Administrador.resx">
+      <DependentUpon>Interfaz_Administrador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cliente\Interfaz-Cliente.resx">
       <DependentUpon>Interfaz-Cliente.cs</DependentUpon>

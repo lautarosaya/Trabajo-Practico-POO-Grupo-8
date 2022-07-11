@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace vista.Admin
 {
-    public partial class Empleado_Contratar : Form
+    public partial class Modificar_info_Empleado : Form
     {
-        public Empleado_Contratar()
+        public Modificar_info_Empleado()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace vista.Admin
             log.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             vista.Interfaz_Administrador interfaz_Administrador = new vista.Interfaz_Administrador();
             this.Hide();

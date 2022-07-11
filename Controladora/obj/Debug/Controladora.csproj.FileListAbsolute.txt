@@ -43,3 +43,18 @@ C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Controlado
 C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Controladora\obj\Debug\Controladora.csproj.CopyComplete
 C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Controladora\obj\Debug\Controladora.dll
 C:\Users\Navegador\Desktop\Nueva carpeta\Trabajo-Practico-POO-Grupo-8\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\Controladora.dll.config
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\Controladora.dll
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\EntityFramework.dll
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\Modelo.dll
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\Modelo.pdb
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\Modelo.dll.config
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\EntityFramework.xml
+C:\Users\Facu\Desktop\POO2\Controladora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Facu\Desktop\POO2\Controladora\obj\Debug\Controladora.csproj.AssemblyReference.cache
+C:\Users\Facu\Desktop\POO2\Controladora\obj\Debug\Controladora.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Desktop\POO2\Controladora\obj\Debug\Controladora.csproj.CopyComplete
+C:\Users\Facu\Desktop\POO2\Controladora\obj\Debug\Controladora.dll
+C:\Users\Facu\Desktop\POO2\Controladora\obj\Debug\Controladora.pdb

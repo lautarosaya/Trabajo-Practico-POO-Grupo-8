@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace vista.Admin
 {
-    public partial class Empleado_Contratar : Form
+    public partial class Vechiculo_Comprar : Form
     {
-        public Empleado_Contratar()
+        public Vechiculo_Comprar()
         {
             InitializeComponent();
         }
@@ -20,15 +20,15 @@ namespace vista.Admin
         private void Boton_Cerrar_Sesion_Click(object sender, EventArgs e)
         {
             Form1 log = new Form1();
-            this.Hide();
+            this.Close();
             log.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            vista.Interfaz_Administrador interfaz_Administrador = new vista.Interfaz_Administrador();
+            vista.Interfaz_Administrador admin = new vista.Interfaz_Administrador();
             this.Hide();
-            interfaz_Administrador.ShowDialog();
+            admin.ShowDialog();
         }
     }
 }

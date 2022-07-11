@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace vista.Admin
 {
-    public partial class Empleado_Contratar : Form
+    public partial class Interfaz_Cliente : Form
     {
-        public Empleado_Contratar()
+        public Interfaz_Cliente()
         {
             InitializeComponent();
+        }
+
+        private void Comprar_Vehiculo_Click(object sender, EventArgs e)
+        {
+            vista.Admin.Vechiculo_Comprar log = new vista.Admin.Vechiculo_Comprar();
+            this.Hide();
+            log.ShowDialog();
         }
 
         private void Boton_Cerrar_Sesion_Click(object sender, EventArgs e)
@@ -22,13 +29,6 @@ namespace vista.Admin
             Form1 log = new Form1();
             this.Hide();
             log.ShowDialog();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            vista.Interfaz_Administrador interfaz_Administrador = new vista.Interfaz_Administrador();
-            this.Hide();
-            interfaz_Administrador.ShowDialog();
         }
     }
 }

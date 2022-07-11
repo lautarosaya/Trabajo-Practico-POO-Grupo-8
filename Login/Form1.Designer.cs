@@ -87,12 +87,12 @@
             this.btnRegistrarLO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrarLO.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarLO.ForeColor = System.Drawing.Color.DimGray;
-            this.btnRegistrarLO.Location = new System.Drawing.Point(12, 12);
+            this.btnRegistrarLO.Location = new System.Drawing.Point(0, 0);
             this.btnRegistrarLO.Name = "btnRegistrarLO";
-            this.btnRegistrarLO.Size = new System.Drawing.Size(193, 48);
+            this.btnRegistrarLO.Size = new System.Drawing.Size(205, 60);
             this.btnRegistrarLO.TabIndex = 3;
             this.btnRegistrarLO.Text = "Registrar";
-            this.btnRegistrarLO.UseVisualStyleBackColor = false;
+            this.btnRegistrarLO.UseVisualStyleBackColor = true;
             this.btnRegistrarLO.Click += new System.EventHandler(this.btnRegistrarLO_Click);
             this.btnRegistrarLO.MouseEnter += new System.EventHandler(this.btnRegistrarLO_MouseEnter);
             this.btnRegistrarLO.MouseLeave += new System.EventHandler(this.btnRegistrarLO_MouseLeave);
@@ -130,9 +130,9 @@
             this.btnIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIniciar.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnIniciar.Location = new System.Drawing.Point(202, 12);
+            this.btnIniciar.Location = new System.Drawing.Point(202, 0);
             this.btnIniciar.Name = "btnIniciar";
-            this.btnIniciar.Size = new System.Drawing.Size(197, 48);
+            this.btnIniciar.Size = new System.Drawing.Size(200, 60);
             this.btnIniciar.TabIndex = 5;
             this.btnIniciar.Text = "Iniciar Sesión";
             this.btnIniciar.UseVisualStyleBackColor = false;
