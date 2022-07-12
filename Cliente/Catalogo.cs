@@ -113,28 +113,28 @@ namespace vista.Cliente
 
         private void btnAllroad_Click(object sender, EventArgs e)
         {
-            abrirFormHijo(new Modelos_Autos.allroad());
+            //abrirFormHijo(new Modelos_Autos.allroad());
             
             
         }
 
         private void btn330i_Click(object sender, EventArgs e)
         {
-            abrirFormHijo(new Modelos_Autos._330i());
+           // abrirFormHijo(new Modelos_Autos._330i());
            
 
         }
 
         private void btnC200_Click(object sender, EventArgs e)
         {
-            abrirFormHijo(new Modelos_Autos.c200());
+           // abrirFormHijo(new Modelos_Autos.c200());
            
 
         }
 
         private void btnFocus_Click(object sender, EventArgs e)
         {
-            abrirFormHijo(new Modelos_Autos.focus());
+           // abrirFormHijo(new Modelos_Autos.focus());
            
 
         }

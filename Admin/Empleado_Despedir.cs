@@ -30,5 +30,25 @@ namespace vista.Admin
             this.Hide();
             admin.ShowDialog();
         }
+
+        private void button1_Des_MouseEnter(object sender, EventArgs e)
+        {
+            button1_Des.ForeColor = Color.White;
+        }
+
+        private void button1_Des_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Boton_Cerrar_Sesion_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Boton_Cerrar_Sesion_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
     }
 }

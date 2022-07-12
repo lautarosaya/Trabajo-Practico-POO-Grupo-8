@@ -52,7 +52,9 @@ namespace vista
 
         private void Catalogo_Extender_Click(object sender, EventArgs e)
         {
-
+            vista.Admin.Vehiculo_Agregar log = new vista.Admin.Vehiculo_Agregar();
+            this.Hide();
+            log.ShowDialog();
         }
 
         private void Catalogo_Recortar_Click(object sender, EventArgs e)

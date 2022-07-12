@@ -30,5 +30,15 @@ namespace vista.Admin
             this.Hide();
             log.ShowDialog();
         }
+
+        private void Boton_Cerrar_Sesion_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Boton_Cerrar_Sesion_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
     }
 }

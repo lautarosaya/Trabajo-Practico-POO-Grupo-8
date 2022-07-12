@@ -65,17 +65,19 @@
             this.panelLaterar.Controls.Add(this.panelLogo);
             this.panelLaterar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLaterar.Location = new System.Drawing.Point(0, 0);
+            this.panelLaterar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelLaterar.Name = "panelLaterar";
-            this.panelLaterar.Size = new System.Drawing.Size(200, 461);
+            this.panelLaterar.Size = new System.Drawing.Size(267, 567);
             this.panelLaterar.TabIndex = 0;
             // 
             // panelFord
             // 
             this.panelFord.Controls.Add(this.btnFocus);
             this.panelFord.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFord.Location = new System.Drawing.Point(0, 444);
+            this.panelFord.Location = new System.Drawing.Point(0, 545);
+            this.panelFord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelFord.Name = "panelFord";
-            this.panelFord.Size = new System.Drawing.Size(183, 50);
+            this.panelFord.Size = new System.Drawing.Size(246, 62);
             this.panelFord.TabIndex = 8;
             // 
             // btnFocus
@@ -85,9 +87,10 @@
             this.btnFocus.FlatAppearance.BorderSize = 0;
             this.btnFocus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFocus.Location = new System.Drawing.Point(0, 0);
+            this.btnFocus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFocus.Name = "btnFocus";
-            this.btnFocus.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnFocus.Size = new System.Drawing.Size(183, 35);
+            this.btnFocus.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnFocus.Size = new System.Drawing.Size(246, 43);
             this.btnFocus.TabIndex = 0;
             this.btnFocus.Text = "FOCUS";
             this.btnFocus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -100,10 +103,11 @@
             this.btnFord.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnFord.FlatAppearance.BorderSize = 0;
             this.btnFord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFord.Location = new System.Drawing.Point(0, 399);
+            this.btnFord.Location = new System.Drawing.Point(0, 490);
+            this.btnFord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFord.Name = "btnFord";
-            this.btnFord.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnFord.Size = new System.Drawing.Size(183, 45);
+            this.btnFord.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnFord.Size = new System.Drawing.Size(246, 55);
             this.btnFord.TabIndex = 7;
             this.btnFord.Text = "Ford";
             this.btnFord.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -114,9 +118,10 @@
             // 
             this.panelMercedes.Controls.Add(this.btnC200);
             this.panelMercedes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMercedes.Location = new System.Drawing.Point(0, 343);
+            this.panelMercedes.Location = new System.Drawing.Point(0, 421);
+            this.panelMercedes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelMercedes.Name = "panelMercedes";
-            this.panelMercedes.Size = new System.Drawing.Size(183, 56);
+            this.panelMercedes.Size = new System.Drawing.Size(246, 69);
             this.panelMercedes.TabIndex = 6;
             // 
             // btnC200
@@ -126,9 +131,10 @@
             this.btnC200.FlatAppearance.BorderSize = 0;
             this.btnC200.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnC200.Location = new System.Drawing.Point(0, 0);
+            this.btnC200.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnC200.Name = "btnC200";
-            this.btnC200.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnC200.Size = new System.Drawing.Size(183, 35);
+            this.btnC200.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnC200.Size = new System.Drawing.Size(246, 43);
             this.btnC200.TabIndex = 0;
             this.btnC200.Text = "C200";
             this.btnC200.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -141,10 +147,11 @@
             this.btnMercedes.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMercedes.FlatAppearance.BorderSize = 0;
             this.btnMercedes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMercedes.Location = new System.Drawing.Point(0, 298);
+            this.btnMercedes.Location = new System.Drawing.Point(0, 366);
+            this.btnMercedes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMercedes.Name = "btnMercedes";
-            this.btnMercedes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnMercedes.Size = new System.Drawing.Size(183, 45);
+            this.btnMercedes.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnMercedes.Size = new System.Drawing.Size(246, 55);
             this.btnMercedes.TabIndex = 5;
             this.btnMercedes.Text = "Mercedes Benz";
             this.btnMercedes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -155,9 +162,10 @@
             // 
             this.panelBmw.Controls.Add(this.btn330i);
             this.panelBmw.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBmw.Location = new System.Drawing.Point(0, 247);
+            this.panelBmw.Location = new System.Drawing.Point(0, 303);
+            this.panelBmw.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelBmw.Name = "panelBmw";
-            this.panelBmw.Size = new System.Drawing.Size(183, 51);
+            this.panelBmw.Size = new System.Drawing.Size(246, 63);
             this.panelBmw.TabIndex = 4;
             // 
             // btn330i
@@ -167,9 +175,10 @@
             this.btn330i.FlatAppearance.BorderSize = 0;
             this.btn330i.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn330i.Location = new System.Drawing.Point(0, 0);
+            this.btn330i.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn330i.Name = "btn330i";
-            this.btn330i.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btn330i.Size = new System.Drawing.Size(183, 35);
+            this.btn330i.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btn330i.Size = new System.Drawing.Size(246, 43);
             this.btn330i.TabIndex = 0;
             this.btn330i.Text = "330i";
             this.btn330i.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -182,10 +191,11 @@
             this.btnBmw.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBmw.FlatAppearance.BorderSize = 0;
             this.btnBmw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBmw.Location = new System.Drawing.Point(0, 202);
+            this.btnBmw.Location = new System.Drawing.Point(0, 248);
+            this.btnBmw.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBmw.Name = "btnBmw";
-            this.btnBmw.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnBmw.Size = new System.Drawing.Size(183, 45);
+            this.btnBmw.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnBmw.Size = new System.Drawing.Size(246, 55);
             this.btnBmw.TabIndex = 3;
             this.btnBmw.Text = "BMW";
             this.btnBmw.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -196,9 +206,10 @@
             // 
             this.panelAudi.Controls.Add(this.btnAllroad);
             this.panelAudi.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAudi.Location = new System.Drawing.Point(0, 145);
+            this.panelAudi.Location = new System.Drawing.Point(0, 178);
+            this.panelAudi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelAudi.Name = "panelAudi";
-            this.panelAudi.Size = new System.Drawing.Size(183, 57);
+            this.panelAudi.Size = new System.Drawing.Size(246, 70);
             this.panelAudi.TabIndex = 2;
             // 
             // btnAllroad
@@ -208,9 +219,10 @@
             this.btnAllroad.FlatAppearance.BorderSize = 0;
             this.btnAllroad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAllroad.Location = new System.Drawing.Point(0, 0);
+            this.btnAllroad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAllroad.Name = "btnAllroad";
-            this.btnAllroad.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnAllroad.Size = new System.Drawing.Size(183, 35);
+            this.btnAllroad.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnAllroad.Size = new System.Drawing.Size(246, 43);
             this.btnAllroad.TabIndex = 0;
             this.btnAllroad.Text = "ALLROAD";
             this.btnAllroad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -223,10 +235,11 @@
             this.btnAudi.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAudi.FlatAppearance.BorderSize = 0;
             this.btnAudi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAudi.Location = new System.Drawing.Point(0, 100);
+            this.btnAudi.Location = new System.Drawing.Point(0, 123);
+            this.btnAudi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAudi.Name = "btnAudi";
-            this.btnAudi.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnAudi.Size = new System.Drawing.Size(183, 45);
+            this.btnAudi.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnAudi.Size = new System.Drawing.Size(246, 55);
             this.btnAudi.TabIndex = 1;
             this.btnAudi.Text = "Audi";
             this.btnAudi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -237,28 +250,31 @@
             // 
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(183, 100);
+            this.panelLogo.Size = new System.Drawing.Size(246, 123);
             this.panelLogo.TabIndex = 0;
             // 
             // panelHijo
             // 
             this.panelHijo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelHijo.Location = new System.Drawing.Point(200, 0);
+            this.panelHijo.Location = new System.Drawing.Point(267, 0);
+            this.panelHijo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelHijo.Name = "panelHijo";
-            this.panelHijo.Size = new System.Drawing.Size(684, 461);
+            this.panelHijo.Size = new System.Drawing.Size(912, 567);
             this.panelHijo.TabIndex = 5;
             // 
             // Catalogo
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(884, 461);
+            this.ClientSize = new System.Drawing.Size(1179, 567);
             this.Controls.Add(this.panelHijo);
             this.Controls.Add(this.panelLaterar);
-            this.MinimumSize = new System.Drawing.Size(600, 500);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MinimumSize = new System.Drawing.Size(794, 605);
             this.Name = "Catalogo";
             this.Text = "Catalogo";
             this.panelLaterar.ResumeLayout(false);
