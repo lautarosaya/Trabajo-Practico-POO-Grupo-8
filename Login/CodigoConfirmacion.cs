@@ -14,6 +14,8 @@ namespace vista.Login
 {
     public partial class CodigoConfirmacion : Form
     {
+        //Developed by Javier Ramírez//
+
         public CodigoConfirmacion(int codigoazar,string usuario,string mail)
         {
             InitializeComponent();

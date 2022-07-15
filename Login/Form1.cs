@@ -14,6 +14,7 @@ namespace vista
 {
     public partial class Form1 : Form
     {
+        //Developed by Javier Ramírez//
         public Form1()
         {
             InitializeComponent();

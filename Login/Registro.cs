@@ -15,6 +15,7 @@ namespace vista.Login
 {
     public partial class Registro : Form
     {
+        //Developed by Javier Ramírez//
         public Registro(Point a)
         {
             InitializeComponent();
@@ -188,7 +189,7 @@ namespace vista.Login
 
         public void pctLineDecoration(PictureBox a, int caso)
         {
-            //Está función la uso para las lineas de color verde y gris, una decoración bastante moderna//
+            //Esta función la uso para las lineas de color verde y gris, una decoración bastante moderna//
             //Caso 1 significa que el usuario entro al TextBox y Caso 2 Significa que el usuario salió del TextBox//
             switch (caso)
             {
