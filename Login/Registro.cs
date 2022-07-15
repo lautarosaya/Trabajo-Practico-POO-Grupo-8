@@ -403,6 +403,26 @@ namespace vista.Login
             MetodosComunes.KeyPressSoloLetras(e, "s");
         }
 
+        private void btnRegistrar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                Controladora.usuarios usuarios = new Controladora.usuarios();
+                switch (usuarios.identificador(txtUsuario.Text, txtContraseña.Text))
+                {
+                    case 1:
+                        vista.Interfaz_Administrador adminFORM = new vista.Interfaz_Administrador();
+                        this.Hide();
+                        adminFORM.ShowDialog();
+                        break;
+
+                    default:
+                        MessageBox.Show("Se ingreso el usuario o una contraseña incorrecta, por favor revisar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        break;
+                }
+            }
+        }
+
         public bool Revisar(TextBox a)
         {
             //Aquí para automatizar el programa, utilizamos los TabsIndex de nuestro TextBox//

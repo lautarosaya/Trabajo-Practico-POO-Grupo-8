@@ -19,7 +19,6 @@ G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Factura.resourc
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Form1.resources
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Interfaz_Administrador.resources
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Interfaz_Cliente.resources
-G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Interfaz_Empleados.resources
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Login.Registro.resources
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Properties.Resources.resources
 G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.GenerateResource.cache
@@ -166,3 +165,13 @@ C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Prac
 C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Practico-POO-Grupo-8\bin\Debug\EntityFramework.xml
 C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Practico-POO-Grupo-8\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.CopyComplete
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Empleado_Contratar.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Empleado_Despedir.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Interfaz_Cliente.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Interfaz_Encargado.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Modificar_info_Empleado.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Modificar_permiso.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Vehiculo_Agregar.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Vechiculo_Comprar.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Vehiculo_Remover.resources
+G:\Proyecto\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Admin.Vehiculo_Vender.resources

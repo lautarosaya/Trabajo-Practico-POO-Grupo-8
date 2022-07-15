@@ -130,6 +130,7 @@
             this.btnRegistrar.Text = "Registrarse";
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnLoginLO_Click);
+            this.btnRegistrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnRegistrar_KeyPress);
             // 
             // txtUsuario
             // 
@@ -144,6 +145,7 @@
             this.txtUsuario.Text = "Nombre de Usuario";
             this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
+            this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnRegistrar_KeyPress);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
             // txtNombre
@@ -158,7 +160,7 @@
             this.txtNombre.TabIndex = 0;
             this.txtNombre.Text = "Nombre";
             this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
-            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnRegistrar_KeyPress);
             this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
             // pctNombre
@@ -192,6 +194,7 @@
             this.txtMail.Text = "Correo Electronico";
             this.txtMail.TextChanged += new System.EventHandler(this.txtMail_TextChanged);
             this.txtMail.Enter += new System.EventHandler(this.txtMail_Enter);
+            this.txtMail.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnRegistrar_KeyPress);
             this.txtMail.Leave += new System.EventHandler(this.txtMail_Leave);
             // 
             // pctCorreo
@@ -217,6 +220,7 @@
             this.txtContraseña.Text = "Contraseña";
             this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
+            this.txtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnRegistrar_KeyPress);
             this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
             // 
             // txtApellido
@@ -231,7 +235,7 @@
             this.txtApellido.TabIndex = 1;
             this.txtApellido.Text = "Apellido";
             this.txtApellido.Enter += new System.EventHandler(this.txtApellido_Enter);
-            this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
+            this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnRegistrar_KeyPress);
             this.txtApellido.Leave += new System.EventHandler(this.txtApellido_Leave);
             // 
             // pctApellido

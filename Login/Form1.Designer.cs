@@ -122,6 +122,7 @@
             this.btnLoginLO.Text = "Ingresar";
             this.btnLoginLO.UseVisualStyleBackColor = false;
             this.btnLoginLO.Click += new System.EventHandler(this.btnLoginLO_Click);
+            this.btnLoginLO.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnLoginLO_KeyPress);
             // 
             // btnIniciar
             // 
@@ -151,6 +152,7 @@
             this.txtContraseña.Text = "Contraseña";
             this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             this.txtContraseña.Enter += new System.EventHandler(this.txtContraseña_Enter);
+            this.txtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnLoginLO_KeyPress);
             this.txtContraseña.Leave += new System.EventHandler(this.txtContraseña_Leave);
             // 
             // pctPassword
@@ -175,6 +177,7 @@
             this.txtUsuario.Tag = "Usuario";
             this.txtUsuario.Text = "Nombre de usuario";
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
+            this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnLoginLO_KeyPress);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
             // pctUsuario
