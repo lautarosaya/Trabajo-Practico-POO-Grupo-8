@@ -145,7 +145,7 @@ namespace vista
 
         private void btnLoginLO_Click(object sender, EventArgs e)
         {
-          Controladora.usuarios usuarios = new Controladora.usuarios();
+          Controladora.usuarios1 usuarios = new Controladora.usuarios1();
 
             switch (usuarios.identificador(txtUsuario.Text, txtContraseña.Text))
             {
@@ -312,7 +312,7 @@ namespace vista
         {
             if(e.KeyChar == Convert.ToChar(Keys.Enter))
             {
-                Controladora.usuarios usuarios = new Controladora.usuarios();
+                Controladora.usuarios1 usuarios = new Controladora.usuarios1();
                 switch (usuarios.identificador(txtUsuario.Text, txtContraseña.Text))
                 {
                     case 1:

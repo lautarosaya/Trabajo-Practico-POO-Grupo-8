@@ -223,7 +223,7 @@ namespace vista.Login
         private void btnLoginLO_Click(object sender, EventArgs e)
         {
             
-            Controladora.usuarios controladora = new Controladora.usuarios();
+            Controladora.usuarios1 controladora = new Controladora.usuarios1();
             //Envio de Mail, utilizando mail Corporativo de nuestra empresa//
             //Variables mail, nombre, apellido//
             bool Nombre = Revisar(txtNombre);
@@ -408,7 +408,7 @@ namespace vista.Login
         {
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
             {
-                Controladora.usuarios usuarios = new Controladora.usuarios();
+                Controladora.usuarios1 usuarios = new Controladora.usuarios1();
                 switch (usuarios.identificador(txtUsuario.Text, txtContraseña.Text))
                 {
                     case 1:

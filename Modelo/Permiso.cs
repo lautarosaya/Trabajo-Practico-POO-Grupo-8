@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Modelo
+namespace vista.Modelo
 {
     using System;
     using System.Collections.Generic;
