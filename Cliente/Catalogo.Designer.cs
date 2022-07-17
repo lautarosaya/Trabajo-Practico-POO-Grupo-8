@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Catalogo));
             this.panelLaterar = new System.Windows.Forms.Panel();
             this.panelFord = new System.Windows.Forms.Panel();
             this.btnFocus = new System.Windows.Forms.Button();
@@ -73,7 +74,7 @@
             // 
             this.panelFord.Controls.Add(this.btnFocus);
             this.panelFord.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelFord.Location = new System.Drawing.Point(0, 444);
+            this.panelFord.Location = new System.Drawing.Point(0, 438);
             this.panelFord.Name = "panelFord";
             this.panelFord.Size = new System.Drawing.Size(183, 50);
             this.panelFord.TabIndex = 8;
@@ -100,7 +101,7 @@
             this.btnFord.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnFord.FlatAppearance.BorderSize = 0;
             this.btnFord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFord.Location = new System.Drawing.Point(0, 399);
+            this.btnFord.Location = new System.Drawing.Point(0, 393);
             this.btnFord.Name = "btnFord";
             this.btnFord.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnFord.Size = new System.Drawing.Size(183, 45);
@@ -114,7 +115,7 @@
             // 
             this.panelMercedes.Controls.Add(this.btnC200);
             this.panelMercedes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMercedes.Location = new System.Drawing.Point(0, 343);
+            this.panelMercedes.Location = new System.Drawing.Point(0, 337);
             this.panelMercedes.Name = "panelMercedes";
             this.panelMercedes.Size = new System.Drawing.Size(183, 56);
             this.panelMercedes.TabIndex = 6;
@@ -141,7 +142,7 @@
             this.btnMercedes.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMercedes.FlatAppearance.BorderSize = 0;
             this.btnMercedes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMercedes.Location = new System.Drawing.Point(0, 298);
+            this.btnMercedes.Location = new System.Drawing.Point(0, 292);
             this.btnMercedes.Name = "btnMercedes";
             this.btnMercedes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnMercedes.Size = new System.Drawing.Size(183, 45);
@@ -155,7 +156,7 @@
             // 
             this.panelBmw.Controls.Add(this.btn330i);
             this.panelBmw.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBmw.Location = new System.Drawing.Point(0, 247);
+            this.panelBmw.Location = new System.Drawing.Point(0, 241);
             this.panelBmw.Name = "panelBmw";
             this.panelBmw.Size = new System.Drawing.Size(183, 51);
             this.panelBmw.TabIndex = 4;
@@ -182,7 +183,7 @@
             this.btnBmw.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBmw.FlatAppearance.BorderSize = 0;
             this.btnBmw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBmw.Location = new System.Drawing.Point(0, 202);
+            this.btnBmw.Location = new System.Drawing.Point(0, 196);
             this.btnBmw.Name = "btnBmw";
             this.btnBmw.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnBmw.Size = new System.Drawing.Size(183, 45);
@@ -196,7 +197,7 @@
             // 
             this.panelAudi.Controls.Add(this.btnAllroad);
             this.panelAudi.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAudi.Location = new System.Drawing.Point(0, 145);
+            this.panelAudi.Location = new System.Drawing.Point(0, 139);
             this.panelAudi.Name = "panelAudi";
             this.panelAudi.Size = new System.Drawing.Size(183, 57);
             this.panelAudi.TabIndex = 2;
@@ -223,7 +224,7 @@
             this.btnAudi.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAudi.FlatAppearance.BorderSize = 0;
             this.btnAudi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAudi.Location = new System.Drawing.Point(0, 100);
+            this.btnAudi.Location = new System.Drawing.Point(0, 94);
             this.btnAudi.Name = "btnAudi";
             this.btnAudi.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnAudi.Size = new System.Drawing.Size(183, 45);
@@ -235,10 +236,13 @@
             // 
             // panelLogo
             // 
+            this.panelLogo.BackColor = System.Drawing.Color.White;
+            this.panelLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelLogo.BackgroundImage")));
+            this.panelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(183, 100);
+            this.panelLogo.Size = new System.Drawing.Size(183, 94);
             this.panelLogo.TabIndex = 0;
             // 
             // panelHijo

@@ -16,5 +16,10 @@ namespace vista.Cliente.Modelos_Autos
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
