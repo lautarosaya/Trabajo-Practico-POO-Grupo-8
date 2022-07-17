@@ -85,6 +85,7 @@
             this.btnFocus.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnFocus.FlatAppearance.BorderSize = 0;
             this.btnFocus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFocus.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFocus.Location = new System.Drawing.Point(0, 0);
             this.btnFocus.Name = "btnFocus";
             this.btnFocus.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
@@ -101,6 +102,7 @@
             this.btnFord.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnFord.FlatAppearance.BorderSize = 0;
             this.btnFord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFord.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFord.Location = new System.Drawing.Point(0, 393);
             this.btnFord.Name = "btnFord";
             this.btnFord.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -126,6 +128,7 @@
             this.btnC200.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnC200.FlatAppearance.BorderSize = 0;
             this.btnC200.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnC200.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC200.Location = new System.Drawing.Point(0, 0);
             this.btnC200.Name = "btnC200";
             this.btnC200.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
@@ -142,6 +145,7 @@
             this.btnMercedes.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMercedes.FlatAppearance.BorderSize = 0;
             this.btnMercedes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMercedes.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMercedes.Location = new System.Drawing.Point(0, 292);
             this.btnMercedes.Name = "btnMercedes";
             this.btnMercedes.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -167,6 +171,7 @@
             this.btn330i.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn330i.FlatAppearance.BorderSize = 0;
             this.btn330i.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn330i.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn330i.Location = new System.Drawing.Point(0, 0);
             this.btn330i.Name = "btn330i";
             this.btn330i.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
@@ -183,6 +188,7 @@
             this.btnBmw.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBmw.FlatAppearance.BorderSize = 0;
             this.btnBmw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBmw.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBmw.Location = new System.Drawing.Point(0, 196);
             this.btnBmw.Name = "btnBmw";
             this.btnBmw.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -208,6 +214,7 @@
             this.btnAllroad.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAllroad.FlatAppearance.BorderSize = 0;
             this.btnAllroad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAllroad.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAllroad.Location = new System.Drawing.Point(0, 0);
             this.btnAllroad.Name = "btnAllroad";
             this.btnAllroad.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
@@ -224,6 +231,7 @@
             this.btnAudi.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAudi.FlatAppearance.BorderSize = 0;
             this.btnAudi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAudi.Font = new System.Drawing.Font("Georgia", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAudi.Location = new System.Drawing.Point(0, 94);
             this.btnAudi.Name = "btnAudi";
             this.btnAudi.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);

@@ -138,7 +138,6 @@ C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\bin\Debug\Entit
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.AssemblyReference.cache
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.SuggestedBindingRedirects.cache
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Catalogo.resources
-C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Cuenta_A_pAGAR.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Factura.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Modelos_Autos._330i.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Cliente.Modelos_Autos.allroad.resources
@@ -147,7 +146,6 @@ C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Login.CodigoConfirmacion.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Form1.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Interfaz_Administrador.resources
-C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Interfaz_Cliente.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Interfaz_Empleados.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Login.Registro.resources
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.Properties.Resources.resources
@@ -156,3 +154,4 @@ C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\Login.csproj.CopyComplete
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.exe
 C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.pdb
+C:\Users\SayavedraLautaroFa\Desktop\Trabajo-Practico-POO-Grupo-8\obj\Debug\vista.InterfazC.resources

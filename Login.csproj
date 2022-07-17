@@ -70,12 +70,6 @@
     <Compile Include="Cliente\Catalogo.Designer.cs">
       <DependentUpon>Catalogo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cliente\CTAS A PAGAR.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cliente\CTAS A PAGAR.Designer.cs">
-      <DependentUpon>CTAS A PAGAR.cs</DependentUpon>
-    </Compile>
     <Compile Include="Cliente\Factura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,9 +140,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cliente\Catalogo.resx">
       <DependentUpon>Catalogo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cliente\CTAS A PAGAR.resx">
-      <DependentUpon>CTAS A PAGAR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cliente\Factura.resx">
       <DependentUpon>Factura.cs</DependentUpon>
