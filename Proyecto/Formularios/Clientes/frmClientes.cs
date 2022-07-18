@@ -183,5 +183,10 @@ namespace Proyecto.Formularios.Clientes
         {
 
         }
+
+        private void bindingNavigatorMoveNextItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

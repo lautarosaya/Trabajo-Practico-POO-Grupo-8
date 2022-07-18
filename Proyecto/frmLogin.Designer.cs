@@ -37,16 +37,15 @@
             this.btningresar = new System.Windows.Forms.Button();
             this.txtclave = new System.Windows.Forms.TextBox();
             this.txtusuario = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.DarkGreen;
+            this.label5.BackColor = System.Drawing.SystemColors.Control;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(-1, 152);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(214, 40);
@@ -130,18 +129,9 @@
             this.txtusuario.Size = new System.Drawing.Size(298, 23);
             this.txtusuario.TabIndex = 26;
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.DarkGreen;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 255);
-            this.label1.TabIndex = 25;
-            // 
             // iconPictureBox1
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.DarkGreen;
+            this.iconPictureBox1.BackColor = System.Drawing.SystemColors.Control;
             this.iconPictureBox1.BackgroundImage = global::Proyecto.Properties.Resources.logo2;
             this.iconPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -174,7 +164,6 @@
             this.Controls.Add(this.btningresar);
             this.Controls.Add(this.txtclave);
             this.Controls.Add(this.txtusuario);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(566, 255);
@@ -197,7 +186,6 @@
         private System.Windows.Forms.Button btningresar;
         private System.Windows.Forms.TextBox txtclave;
         private System.Windows.Forms.TextBox txtusuario;
-        private System.Windows.Forms.Label label1;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
     }
 }

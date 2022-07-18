@@ -28,5 +28,10 @@ namespace Proyecto.Formularios.Modales
         {
             this.Close();
         }
+
+        private void txtnumerodocumento_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
