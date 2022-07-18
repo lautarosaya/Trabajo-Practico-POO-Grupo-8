@@ -58,3 +58,15 @@ C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Prac
 C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
 C:\Users\epino\OneDrive\Escritorio\POO\Trabajo-Practico-POO-Grupo-8\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.dll
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.dll
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Navegador\Desktop\c\Trabajo-Practico-POO-Grupo-8\Modelo\obj\Debug\Modelo.csproj.CopyComplete
