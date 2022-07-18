@@ -73,3 +73,77 @@ C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\SISTEMA DE VENT
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\bin\Release\SISTEMA DE VENTAS.pdb
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\SISTEMA DE VENTAS.exe
 C:\Users\agusp\Downloads\PuntoVentaPortable\Proyecto\obj\Release\SISTEMA DE VENTAS.pdb
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\DBVENTAS.db
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\SISTEMA DE VENTAS.exe.config
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\SISTEMA DE VENTAS.exe
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\SISTEMA DE VENTAS.pdb
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\BarcodeLib.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ClosedXML.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\EntityFramework.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ExcelNumberFormat.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\FontAwesome.Sharp.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\itextsharp.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\itextsharp.xmlworker.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\NPOI.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\NPOI.OOXML.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\NPOI.OpenXml4Net.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\System.Data.SQLite.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\System.IO.Packaging.dll
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\BouncyCastle.Crypto.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ClosedXML.pdb
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ClosedXML.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\EntityFramework.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ExcelNumberFormat.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ICSharpCode.SharpZipLib.pdb
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\ICSharpCode.SharpZipLib.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\itextsharp.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\NPOI.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\NPOI.OOXML.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\bin\Release\System.Data.SQLite.xml
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.csproj.AssemblyReference.cache
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Clientes.frmClientes.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Clientes.frmMantCliente.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Compras.frmBuscarCompra.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Compras.frmListaCompras.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Compras.frmNuevaCompra.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Mantenimiento.frmNegocio.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Mantenimiento.frmMantUsuario_.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Mantenimiento.frmPermisos.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Mantenimiento.frmUsuarios.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Modales.mdClientes.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Modales.mdCompraExitosa.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Modales.mdProductos.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Modales.mdProveedores.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Modales.mdVentaExitosa.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Productos.frmCargaMasiva.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Productos.frmGenerarBarras.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Productos.frmMantProducto.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Productos.frmProductos.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Proveedores.frmMantProveedor.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Proveedores.frmProveedores.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Ventas.frmBuscarVenta.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Ventas.frmListaVentas.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Formularios.Ventas.frmNuevaVenta.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.frmLogin.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Inicio.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Intermedios.ICompras.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Intermedios.IMantenimiento.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Intermedios.IProductos.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Intermedios.IVentas.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.mdAcercaDe.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.Properties.Resources.resources
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.csproj.GenerateResource.cache
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\Proyecto.csproj.CopyComplete
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\SISTEMA DE VENTAS.exe
+C:\Users\agusp\Desktop\Sistemasventas\Proyecto\obj\Release\SISTEMA DE VENTAS.pdb

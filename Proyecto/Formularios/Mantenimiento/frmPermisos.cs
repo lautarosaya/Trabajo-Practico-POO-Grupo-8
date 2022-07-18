@@ -13,6 +13,7 @@ namespace Proyecto.Formularios.Mantenimiento
 {
     public partial class frmPermisos : Form
     {
+        public Proyecto.Modelo.Permisos oPermisos { get; set; }
         public frmPermisos()
         {
             InitializeComponent();
@@ -67,7 +68,7 @@ namespace Proyecto.Formularios.Mantenimiento
             if (a_proveedores.Checked)
                 _a_proveedores = 1;
             
-            if (a_mantenimiento.Checked)
+            if (a_mantenimiento.Checked && oPermisos.IdPermisos == 1)
                 _a_mantenimiento = 1;
 
 

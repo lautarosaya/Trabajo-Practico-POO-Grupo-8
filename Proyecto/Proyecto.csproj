@@ -9,12 +9,14 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Proyecto</RootNamespace>
     <AssemblyName>SISTEMA DE VENTAS</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -27,7 +29,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -53,6 +54,7 @@
   <PropertyGroup>
     <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="BarcodeLib, Version=1.0.0.20, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\BarcodeLib.1.0.0.20\lib\net20\BarcodeLib.dll</HintPath>
@@ -214,18 +216,6 @@
     <Compile Include="Formularios\Modales\mdVentaExitosa.Designer.cs">
       <DependentUpon>mdVentaExitosa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Productos\frmCargaMasiva.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Productos\frmCargaMasiva.Designer.cs">
-      <DependentUpon>frmCargaMasiva.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\Productos\frmGenerarBarras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Productos\frmGenerarBarras.Designer.cs">
-      <DependentUpon>frmGenerarBarras.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\Productos\frmMantProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,7 +264,6 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Herramientas\ConvertirBitMap.cs" />
     <Compile Include="Herramientas\OpcionCombo.cs" />
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
@@ -338,11 +327,11 @@
     <Content Include="blogg.ico" />
     <Content Include="iconshop.ico" />
     <Content Include="logo.ico" />
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\%24this.Icon.ico" />
     <None Include="Resources\logo.bmp" />
     <None Include="Resources\logo.ico" />
     <None Include="Resources\logo.png" />
-    <None Include="Resources\PlantillaVenta.html" />
-    <None Include="Resources\PlantillaCompra.html" />
     <None Include="Resources\delete17.png" />
     <None Include="Resources\check16.png" />
     <None Include="Resources\check20.png" />
@@ -391,17 +380,12 @@
     <EmbeddedResource Include="Formularios\Modales\mdVentaExitosa.resx">
       <DependentUpon>mdVentaExitosa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Productos\frmCargaMasiva.resx">
-      <DependentUpon>frmCargaMasiva.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Productos\frmGenerarBarras.resx">
-      <DependentUpon>frmGenerarBarras.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Productos\frmMantProducto.resx">
       <DependentUpon>frmMantProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Productos\frmProductos.resx">
       <DependentUpon>frmProductos.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Proveedores\frmMantProveedor.resx">
       <DependentUpon>frmMantProveedor.cs</DependentUpon>
@@ -462,16 +446,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Resources\PlantillaProducto.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\LogoCanal.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\oie_transparent.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6">

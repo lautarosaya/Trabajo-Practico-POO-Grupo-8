@@ -169,6 +169,7 @@
             this.MaximumSize = new System.Drawing.Size(566, 255);
             this.MinimumSize = new System.Drawing.Size(566, 255);
             this.Name = "frmLogin";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();

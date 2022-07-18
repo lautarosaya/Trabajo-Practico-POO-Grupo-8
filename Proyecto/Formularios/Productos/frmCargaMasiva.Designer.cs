@@ -47,7 +47,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnprocesar = new FontAwesome.Sharp.IconButton();
-            this.btndescargar = new FontAwesome.Sharp.IconButton();
             this.btnsalir = new FontAwesome.Sharp.IconButton();
             this.btncargar = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
@@ -238,24 +237,6 @@
             this.btnprocesar.UseVisualStyleBackColor = true;
             this.btnprocesar.Click += new System.EventHandler(this.btnprocesar_Click);
             // 
-            // btndescargar
-            // 
-            this.btndescargar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btndescargar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
-            this.btndescargar.IconColor = System.Drawing.Color.ForestGreen;
-            this.btndescargar.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.btndescargar.IconSize = 17;
-            this.btndescargar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btndescargar.Location = new System.Drawing.Point(622, 126);
-            this.btndescargar.Name = "btndescargar";
-            this.btndescargar.Size = new System.Drawing.Size(128, 21);
-            this.btndescargar.TabIndex = 146;
-            this.btndescargar.Text = "Descargar Plantilla";
-            this.btndescargar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btndescargar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btndescargar.UseVisualStyleBackColor = true;
-            this.btndescargar.Click += new System.EventHandler(this.btndescargar_Click);
-            // 
             // btnsalir
             // 
             this.btnsalir.BackColor = System.Drawing.Color.DarkGreen;
@@ -304,7 +285,6 @@
             this.Controls.Add(this.btnprocesar);
             this.Controls.Add(this.lblresumen);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btndescargar);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.dgvdata);
             this.Controls.Add(this.groupBox1);
@@ -334,7 +314,6 @@
         private FontAwesome.Sharp.IconButton btnprocesar;
         private System.Windows.Forms.Label lblresumen;
         private System.Windows.Forms.Label label3;
-        private FontAwesome.Sharp.IconButton btndescargar;
         private FontAwesome.Sharp.IconButton btnsalir;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Mensaje;

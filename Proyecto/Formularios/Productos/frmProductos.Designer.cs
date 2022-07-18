@@ -51,7 +51,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnnuevoproducto = new FontAwesome.Sharp.IconButton();
-            this.btnexportar = new FontAwesome.Sharp.IconButton();
             this.btnsalir = new FontAwesome.Sharp.IconButton();
             this.btnborrar = new FontAwesome.Sharp.IconButton();
             this.btnbuscar = new FontAwesome.Sharp.IconButton();
@@ -282,26 +281,6 @@
             this.btnnuevoproducto.UseVisualStyleBackColor = false;
             this.btnnuevoproducto.Click += new System.EventHandler(this.btnnuevoproducto_Click);
             // 
-            // btnexportar
-            // 
-            this.btnexportar.BackColor = System.Drawing.SystemColors.Control;
-            this.btnexportar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnexportar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnexportar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
-            this.btnexportar.IconColor = System.Drawing.Color.LimeGreen;
-            this.btnexportar.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.btnexportar.IconSize = 17;
-            this.btnexportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnexportar.Location = new System.Drawing.Point(15, 128);
-            this.btnexportar.Name = "btnexportar";
-            this.btnexportar.Size = new System.Drawing.Size(118, 21);
-            this.btnexportar.TabIndex = 193;
-            this.btnexportar.Text = "Descargar Excel";
-            this.btnexportar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnexportar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnexportar.UseVisualStyleBackColor = false;
-            this.btnexportar.Click += new System.EventHandler(this.btnexportar_Click);
-            // 
             // btnsalir
             // 
             this.btnsalir.BackColor = System.Drawing.Color.DarkGreen;
@@ -365,7 +344,6 @@
             this.ClientSize = new System.Drawing.Size(1078, 563);
             this.Controls.Add(this.btnnuevoproducto);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnexportar);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnborrar);
             this.Controls.Add(this.btnbuscar);
@@ -401,7 +379,6 @@
         private System.Windows.Forms.DataGridView dgvdata;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private FontAwesome.Sharp.IconButton btnexportar;
         private System.Windows.Forms.GroupBox groupBox1;
         private FontAwesome.Sharp.IconButton btnnuevoproducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;

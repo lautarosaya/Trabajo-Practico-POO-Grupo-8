@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.label1 = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -44,14 +43,8 @@
             this.menuClientes = new FontAwesome.Sharp.IconButton();
             this.menuCompras = new FontAwesome.Sharp.IconButton();
             this.menuVentas = new FontAwesome.Sharp.IconButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -63,7 +56,7 @@
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.label1.Size = new System.Drawing.Size(665, 91);
+            this.label1.Size = new System.Drawing.Size(665, 94);
             this.label1.TabIndex = 4;
             this.label1.Text = "FLORENCIO SANCHEZ AUTOMOTORES";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -72,12 +65,7 @@
             // 
             this.statusStrip1.BackColor = System.Drawing.Color.AliceBlue;
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel2,
-            this.lblstatus1,
-            this.toolStripStatusLabel1,
-            this.lblstatus2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 91);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 94);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.statusStrip1.Size = new System.Drawing.Size(665, 22);
@@ -128,11 +116,11 @@
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ButtonFace;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 90;
-            this.iconPictureBox1.Location = new System.Drawing.Point(12, 0);
+            this.iconPictureBox1.IconSize = 79;
+            this.iconPictureBox1.Location = new System.Drawing.Point(12, 12);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Padding = new System.Windows.Forms.Padding(0, 11, 0, 0);
-            this.iconPictureBox1.Size = new System.Drawing.Size(90, 91);
+            this.iconPictureBox1.Size = new System.Drawing.Size(90, 79);
             this.iconPictureBox1.TabIndex = 15;
             this.iconPictureBox1.TabStop = false;
             // 
@@ -149,7 +137,7 @@
             this.btnInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInfo.IconSize = 50;
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnInfo.Location = new System.Drawing.Point(546, 17);
+            this.btnInfo.Location = new System.Drawing.Point(541, 26);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(53, 53);
             this.btnInfo.TabIndex = 14;
@@ -169,7 +157,7 @@
             this.btnsalir.IconColor = System.Drawing.Color.White;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnsalir.IconSize = 50;
-            this.btnsalir.Location = new System.Drawing.Point(605, 17);
+            this.btnsalir.Location = new System.Drawing.Point(600, 26);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Padding = new System.Windows.Forms.Padding(0, 7, 0, 0);
             this.btnsalir.Size = new System.Drawing.Size(53, 53);
@@ -188,7 +176,7 @@
             this.menuMantenimiento.IconColor = System.Drawing.Color.White;
             this.menuMantenimiento.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuMantenimiento.IconSize = 80;
-            this.menuMantenimiento.Location = new System.Drawing.Point(441, 322);
+            this.menuMantenimiento.Location = new System.Drawing.Point(468, 333);
             this.menuMantenimiento.Name = "menuMantenimiento";
             this.menuMantenimiento.Size = new System.Drawing.Size(119, 108);
             this.menuMantenimiento.TabIndex = 10;
@@ -207,7 +195,7 @@
             this.menuProveedores.IconColor = System.Drawing.Color.White;
             this.menuProveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuProveedores.IconSize = 80;
-            this.menuProveedores.Location = new System.Drawing.Point(270, 322);
+            this.menuProveedores.Location = new System.Drawing.Point(277, 333);
             this.menuProveedores.Name = "menuProveedores";
             this.menuProveedores.Size = new System.Drawing.Size(119, 108);
             this.menuProveedores.TabIndex = 9;
@@ -226,7 +214,7 @@
             this.menuProductos.IconColor = System.Drawing.Color.White;
             this.menuProductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuProductos.IconSize = 80;
-            this.menuProductos.Location = new System.Drawing.Point(441, 162);
+            this.menuProductos.Location = new System.Drawing.Point(459, 162);
             this.menuProductos.Name = "menuProductos";
             this.menuProductos.Size = new System.Drawing.Size(119, 108);
             this.menuProductos.TabIndex = 8;
@@ -245,7 +233,7 @@
             this.menuClientes.IconColor = System.Drawing.Color.White;
             this.menuClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuClientes.IconSize = 80;
-            this.menuClientes.Location = new System.Drawing.Point(95, 322);
+            this.menuClientes.Location = new System.Drawing.Point(78, 333);
             this.menuClientes.Name = "menuClientes";
             this.menuClientes.Size = new System.Drawing.Size(119, 108);
             this.menuClientes.TabIndex = 7;
@@ -264,7 +252,7 @@
             this.menuCompras.IconColor = System.Drawing.Color.White;
             this.menuCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuCompras.IconSize = 80;
-            this.menuCompras.Location = new System.Drawing.Point(270, 162);
+            this.menuCompras.Location = new System.Drawing.Point(277, 162);
             this.menuCompras.Name = "menuCompras";
             this.menuCompras.Size = new System.Drawing.Size(119, 108);
             this.menuCompras.TabIndex = 6;
@@ -283,7 +271,7 @@
             this.menuVentas.IconColor = System.Drawing.Color.White;
             this.menuVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuVentas.IconSize = 80;
-            this.menuVentas.Location = new System.Drawing.Point(95, 162);
+            this.menuVentas.Location = new System.Drawing.Point(78, 162);
             this.menuVentas.Name = "menuVentas";
             this.menuVentas.Size = new System.Drawing.Size(119, 108);
             this.menuVentas.TabIndex = 5;
@@ -291,36 +279,6 @@
             this.menuVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuVentas.UseVisualStyleBackColor = false;
             this.menuVentas.Click += new System.EventHandler(this.menuVentas_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Proyecto.Properties.Resources.LogoCanal;
-            this.pictureBox1.Location = new System.Drawing.Point(463, 184);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(74, 69);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Proyecto.Properties.Resources.LogoCanal;
-            this.pictureBox2.Location = new System.Drawing.Point(291, 184);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(74, 69);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Proyecto.Properties.Resources.LogoCanal;
-            this.pictureBox3.Location = new System.Drawing.Point(114, 344);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(74, 69);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
             // 
             // Inicio
             // 
@@ -340,11 +298,7 @@
             this.Controls.Add(this.menuCompras);
             this.Controls.Add(this.menuVentas);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(681, 524);
             this.MinimumSize = new System.Drawing.Size(681, 524);
             this.Name = "Inicio";
@@ -354,9 +308,6 @@
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,9 +330,6 @@
         private FontAwesome.Sharp.IconButton btnInfo;
         private FontAwesome.Sharp.IconButton btnsalir;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

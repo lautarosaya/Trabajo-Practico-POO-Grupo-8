@@ -62,7 +62,7 @@ namespace Proyecto
             {
                 menuMantenimiento.Enabled = false;
                 menuMantenimiento.Cursor = Cursors.No;
-                menuMantenimiento.Hide();
+                menuMantenimiento.Hide();   
             }
         }
         private void Frm_Closing(object sender, FormClosingEventArgs e)

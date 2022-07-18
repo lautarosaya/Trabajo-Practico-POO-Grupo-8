@@ -57,7 +57,6 @@
             this.PrecioVenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnexportar = new FontAwesome.Sharp.IconButton();
             this.btnborrar = new FontAwesome.Sharp.IconButton();
             this.btnbusqueda = new FontAwesome.Sharp.IconButton();
             this.btnbuscar = new FontAwesome.Sharp.IconButton();
@@ -322,26 +321,6 @@
             this.SubTotal.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.SubTotal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // btnexportar
-            // 
-            this.btnexportar.BackColor = System.Drawing.SystemColors.Control;
-            this.btnexportar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnexportar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnexportar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
-            this.btnexportar.IconColor = System.Drawing.Color.LimeGreen;
-            this.btnexportar.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.btnexportar.IconSize = 17;
-            this.btnexportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnexportar.Location = new System.Drawing.Point(26, 107);
-            this.btnexportar.Name = "btnexportar";
-            this.btnexportar.Size = new System.Drawing.Size(118, 21);
-            this.btnexportar.TabIndex = 192;
-            this.btnexportar.Text = "Descargar Excel";
-            this.btnexportar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnexportar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnexportar.UseVisualStyleBackColor = false;
-            this.btnexportar.Click += new System.EventHandler(this.btnexportar_Click);
-            // 
             // btnborrar
             // 
             this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -419,7 +398,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Proyecto.Properties.Resources.LogoCanal;
+            this.pictureBox2.Image = global::Proyecto.Properties.Resources.logo;
             this.pictureBox2.Location = new System.Drawing.Point(932, 13);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(74, 69);
@@ -434,7 +413,6 @@
             this.ClientSize = new System.Drawing.Size(1104, 590);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.btnexportar);
             this.Controls.Add(this.btnborrar);
             this.Controls.Add(this.btnbusqueda);
             this.Controls.Add(this.cbobuscar);
@@ -476,7 +454,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
-        private FontAwesome.Sharp.IconButton btnexportar;
         private FontAwesome.Sharp.IconButton btnborrar;
         private FontAwesome.Sharp.IconButton btnbusqueda;
         private System.Windows.Forms.ComboBox cbobuscar;

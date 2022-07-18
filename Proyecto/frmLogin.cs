@@ -31,7 +31,7 @@ namespace Proyecto
 
         private void iconPictureBox1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://ouo.io/VRgLgZ");
+            System.Diagnostics.Process.Start("https://www.instagram.com/fsautomotores/?hl=esZ");
         }
 
         private void Frm_Closing(object sender, FormClosingEventArgs e)
@@ -44,13 +44,13 @@ namespace Proyecto
 
         private void iconPictureBox1_MouseHover(object sender, EventArgs e)
         {
-            iconPictureBox1.BackColor = Color.LightSteelBlue;
+            iconPictureBox1.BackColor = Color.DarkGreen;
             iconPictureBox1.Cursor = Cursors.Hand;
         }
 
         private void iconPictureBox1_MouseLeave(object sender, EventArgs e)
         {
-            iconPictureBox1.BackColor = Color.FromArgb(42, 63, 84);
+            iconPictureBox1.BackColor = Color.FromArgb(240, 240, 240);
         }
 
         private void btningresar_Click(object sender, EventArgs e)

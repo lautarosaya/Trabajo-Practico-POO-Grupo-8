@@ -147,27 +147,6 @@ namespace Proyecto.Formularios.Productos
                 }
             }
         }
-
-        private void btndescargar_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                byte[] array = Properties.Resources.PlantillaProducto;
-                SaveFileDialog savefile = new SaveFileDialog();
-                savefile.FileName = "PlantillaProductos.xlsx";
-                savefile.Filter = "Excel Files|*.xlsx";
-                if (savefile.ShowDialog() == DialogResult.OK)
-                {
-                    File.WriteAllBytes(savefile.FileName, array.ToArray());
-                    MessageBox.Show("Descarga Exitosa", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Error al descargar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
         private void btnprocesar_Click(object sender, EventArgs e)
         {
             if (backgroundWorker1.IsBusy != true)
